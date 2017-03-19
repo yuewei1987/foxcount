@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<property name="LOG_HOME" value="/dubbo/data/logs/ecej-test" />
+	<property name="LOG_PREFIX" value="${appname}" />
+	<property name="LOG_CHARSET" value="UTF-8" />
+	<property name="LOG_ROOT_LEVEL" value="INFO" />
+	<property name="LOG_DIR" value="${LOG_HOME}/%d{yyyyMMdd}" />
+	<property name="LOG_MSG" value="- | [%X{requestId}] | [%d{yyyyMMdd HH:mm:ss.SSS}] | [%level]|[${HOSTNAME}] | [%thread]|[%logger{36}] | %msg|%n "/>
+	<property name="MAX_FILE_SIZE" value="50MB" />
+	<property name="MAX_HISTORY" value="10"/>
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>${LOG_MSG}</pattern>
+		</layout>
+	</appender>
+	<!-- Configure the Console appender -->
+	<appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Configure the Sentry appender, overriding the logging threshold to the WARN level -->
+	<appender name="Sentry" class="com.getsentry.raven.logback.SentryAppender">
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>WARN</level>
+		</filter>
+
+		<!-- Set Sentry DSN -->
+		<dsn>https://3e029b6fd3c740069c1792eebcaf628d@sentry.io/148957</dsn>
+
+		<!-- Optional, provide release version of your application -->
+		<release>1.0.0</release>
+
+		<!-- Optional, provide environment your application is running in -->
+		<environment>production</environment>
+
+		<!-- Optional, override the server name (rather than looking it up dynamically) -->
+		<serverName>server1</serverName>
+
+		<!-- Optional, select the ravenFactory class -->
+		<ravenFactory>com.foo.RavenFactory</ravenFactory>
+
+		<!-- Optional, provide tags -->
+		<tags>tag1:value1,tag2:value2</tags>
+
+		<!-- Optional, provide tag names to be extracted from MDC -->
+		<extraTags>foo,bar,baz</extraTags>
+	</appender>
+
+
+	<appender name="FILE_ALL" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<File>${LOG_HOME}/${LOG_PREFIX}All.log</File>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<FileNamePattern>${LOG_DIR}/${LOG_PREFIX}All%i.log</FileNamePattern>
+			<MaxHistory>${MAX_HISTORY}</MaxHistory>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+		        <maxFileSize>${MAX_FILE_SIZE}</maxFileSize>
+		    </timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>${LOG_MSG}</pattern>
+		</layout>
+	</appender>
+	
+    <appender name="FILE_ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+           <filter class="ch.qos.logback.classic.filter.LevelFilter">
+               <level>ERROR</level>
+               <OnMismatch>DENY</OnMismatch>
+               <OnMatch>ACCEPT</OnMatch>
+           </filter>
+           <File>${LOG_HOME}/${LOG_PREFIX}Err.log</File>
+           <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+                   <FileNamePattern>${LOG_DIR}/${LOG_PREFIX}Err%i.log</FileNamePattern>
+                   <MaxHistory>${MAX_HISTORY}</MaxHistory>
+                   <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                   <maxFileSize>${MAX_FILE_SIZE}</maxFileSize>
+               </timeBasedFileNamingAndTriggeringPolicy>
+           </rollingPolicy>
+           <layout class="ch.qos.logback.classic.PatternLayout">
+                   <Pattern>${LOG_MSG}</Pattern>
+           </layout>
+    </appender>
+    
+	<!-- additivity设为false,则logger内容不附加至root -->
+	
+	
+	<logger name="org.springframework"     level="ERROR" /> 
+	<logger name="org.apache.commons"      level="ERROR" />
+	<logger name="org.eclipse.jetty.io"    level="ERROR" />
+	<logger name="org.eclipse.jetty.util"  level="ERROR" />
+	<logger name="org.apache.zookeeper"    level="INFO"  />
+ 	<logger name="com.ecej" level="DEBUG"/>
+
+	<!-- Enable the Console and Sentry appenders, Console is provided as an example
+        of a non-Raven logger that is set to a different logging threshold -->
+	<root level="${LOG_ROOT_LEVEL}">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE_ALL" />
+		<appender-ref ref="FILE_ERROR" />
+		<appender-ref ref="Console" />
+		<appender-ref ref="Sentry" />
+	</root>
+	
+</configuration>

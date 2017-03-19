@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecej.uc.vo.ExpenseVo">
+    <resultMap id="BaseResultMap" type="com.ecej.uc.vo.ExpenseVo">
+        <id column="eid" property="eid"/>
+        <result column="emailid" property="emailid"/>
+        <result column="servicename" property="servicename"/>
+        <result column="serviceurl" property="serviceurl"/>
+        <result column="cost" property="cost"/>
+        <result column="invoice_date" property="invoiceDate"/>
+        <result column="mail_id" property="mailId"/>
+        <result column="mail_content" property="mailContent"/>
+        <result column="mail_subject" property="mailSubject"/>
+        <result column="target" property="target"/>
+        <result column="status" property="status"/>
+        <result column="pid" property="pid"/>
+        <result column="uid" property="uid"/>
+    </resultMap>
+
+
+    <sql id="Table_Name">
+        expense a
+        left join emaillist b on a.emailid = b.eid
+        left JOIN user c on b.uid = c.uid
+    </sql>
+
+    <sql id="Base_Column">
+		a.eid,
+		a.emailid,
+		a.servicename,
+		a.serviceurl,
+		a.cost,
+		a.invoice_date,
+		a.mail_id,
+		a.mail_content,
+		a.mail_subject,
+        a.target,
+        a.status,
+        b.pid,
+        c.uid
+	</sql>
+
+    <sql id="Base_Where">
+        <trim suffixOverrides="AND">
+            <if test="eid != null">
+                eid= #{eid}
+                AND
+            </if>
+            <if test="emailid != null">
+                emailid= #{emailid}
+                AND
+            </if>
+            <if test="servicename != null">
+                servicename= #{servicename}
+                AND
+            </if>
+            <if test="serviceurl != null">
+                serviceurl= #{serviceurl}
+                AND
+            </if>
+            <if test="cost != null">
+                cost= #{cost}
+                AND
+            </if>
+            <if test="invoiceDate != null">
+                invoice_date= #{invoiceDate}
+                AND
+            </if>
+            <if test="mailId != null">
+                mail_id= #{mailId}
+                AND
+            </if>
+            <if test="mailContent != null">
+                mail_content= #{mailContent}
+                AND
+            </if>
+            <if test="mailSubject != null">
+                mail_subject= #{mailSubject}
+                AND
+            </if>
+            <if test="target != null">
+                target= #{target}
+                AND
+            </if>
+            <if test="status != null">
+                status= #{status}
+                AND
+            </if>
+            <if test="pid != null">
+                pid= #{pid}
+                AND
+            </if>
+            <if test="uid != null">
+                uid= #{uid}
+            </if>
+        </trim>
+    </sql>
+
+    <sql id="Base_Select">
+        select
+        <include refid="Base_Column"/>
+        from
+        <include refid="Table_Name"/>
+        <where>
+            <include refid="Base_Where"/>
+        </where>
+    </sql>
+
+    <select id="count" parameterType="java.util.Map" resultType="int">
+        select count(1) from
+        <include refid="Table_Name"/>
+        <where>
+            <include refid="Base_Where"/>
+        </where>
+    </select>
+
+    <select id="selectOne" parameterType="com.ecej.uc.vo.ExpenseVo" resultMap="BaseResultMap">
+        <include refid="Base_Select"/>
+    </select>
+
+    <select id="selectList" parameterType="com.ecej.uc.vo.ExpenseVo" resultMap="BaseResultMap">
+        <include refid="Base_Select"/>
+    </select>
+
+
+    <select id="selectForUpdate" parameterType="com.ecej.uc.vo.ExpenseVo" resultMap="BaseResultMap" useCache="false">
+        <include refid="Base_Select"/>
+        for update
+    </select>
+
+
+</mapper>

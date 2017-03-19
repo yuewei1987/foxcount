@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/catty-service/catty-service.iml" filepath="$PROJECT_DIR$/catty-service/catty-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/catty-service-api/catty-service-api.iml" filepath="$PROJECT_DIR$/catty-service-api/catty-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/market.iml" filepath="$PROJECT_DIR$/market.iml" />
+    </modules>
+  </component>
+</project>

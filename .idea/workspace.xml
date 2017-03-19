@@ -1,0 +1,2241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="4073a8b4-e40f-45a4-9a43-f8d3dac82192" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_getsentry_raven_raven_7_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_getsentry_raven_raven_logback_7_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/homeback.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service-api/target/catty-service-api-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/catty-service-api/target/catty-service-api-0.0.1-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/catty-service-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/catty-service/target/catty-service-0.0.1-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/catty-service-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/catty-service/target/catty-service-0.0.1-SNAPSHOT.jar.original" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/com/ecej/controller/GoogleLoginController.class" afterPath="$PROJECT_DIR$/catty-service/target/classes/com/ecej/controller/GoogleLoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/com/ecej/controller/ImportMailController.class" afterPath="$PROJECT_DIR$/catty-service/target/classes/com/ecej/controller/ImportMailController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/catty-service.iml" afterPath="$PROJECT_DIR$/catty-service/catty-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/pom.xml" afterPath="$PROJECT_DIR$/catty-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/GoogleLoginController.java" afterPath="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/GoogleLoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/ImportMailController.java" afterPath="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/ImportMailController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/src/main/resources/logback-spring.xml" afterPath="$PROJECT_DIR$/catty-service/src/main/resources/logback-spring.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/src/main/resources/mybatis/ExpenseMapper.xml" afterPath="$PROJECT_DIR$/catty-service/src/main/resources/mybatis/ExpenseMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/src/main/resources/static/css/screen.css" afterPath="$PROJECT_DIR$/catty-service/src/main/resources/static/css/screen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/src/main/resources/static/js/script.js" afterPath="$PROJECT_DIR$/catty-service/src/main/resources/static/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/home.jsp" afterPath="$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/META-INF/resources/WEB-INF/jsp/home.jsp" afterPath="$PROJECT_DIR$/catty-service/target/classes/META-INF/resources/WEB-INF/jsp/home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/META-INF/resources/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/catty-service/target/classes/META-INF/resources/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/logback-spring.xml" afterPath="$PROJECT_DIR$/catty-service/target/classes/logback-spring.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/mybatis/ExpenseMapper.xml" afterPath="$PROJECT_DIR$/catty-service/target/classes/mybatis/ExpenseMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/remote-db.properties" afterPath="$PROJECT_DIR$/catty-service/target/classes/remote-db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/remote-googleclient.properties" afterPath="$PROJECT_DIR$/catty-service/target/classes/remote-googleclient.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/css/screen.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/css/screen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/js/script.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/README.md" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/alert.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/autocomplete.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/autocomplete.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/badge.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/badge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/breadcrumb-item.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/breadcrumb-item.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/breadcrumb.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/breadcrumb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/button-group.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/button-group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/button.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/card.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/card.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/carousel-item.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/carousel-item.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/carousel.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/checkbox-group.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/checkbox-group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/checkbox.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/checkbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/col.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/col.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/collapse-item.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/collapse-item.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/collapse.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/collapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/date-picker.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/date-picker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/dialog.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/dropdown-item.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/dropdown-item.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/dropdown-menu.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/dropdown-menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/dropdown.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/element-ui.common.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/element-ui.common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/form-item.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/form-item.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/form.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/icon.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/icon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/index.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/input-number.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/input-number.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/input.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/input.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/loading.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/loading.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/format.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/format.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/index.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/bg.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/da.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/de.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/en.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/es.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/fa.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/fi.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/fr.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/id.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/it.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/ja.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/ko.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/nb-NO.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/nb-NO.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/nl.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/pl.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/pt-br.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/pt-br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/pt.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/ru-RU.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/ru-RU.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/th.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/tr-TR.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/tr-TR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/vi.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/zh-CN.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/zh-CN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/zh-TW.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/locale/lang/zh-TW.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/menu-item-group.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/menu-item-group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/menu-item.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/menu-item.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/menu.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/message-box.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/message-box.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/message.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/message.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/notification.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/notification.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/option-group.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/option-group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/option.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/option.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/pagination.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/pagination.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/popover.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/popover.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/progress.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/progress.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/radio-button.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/radio-button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/radio-group.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/radio-group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/radio.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/radio.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/rate.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/rate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/row.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/row.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/scrollbar.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/scrollbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/select.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/select.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/slider.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/spinner.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/spinner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/step.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/step.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/steps.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/steps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/submenu.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/submenu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/switch.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/switch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/tab-pane.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/tab-pane.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/table-column.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/table-column.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/table.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/tabs.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/tabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/tag.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/tag.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/autocomplete.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/autocomplete.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/base.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/carousel-item.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/carousel-item.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/carousel.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/cascader.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/cascader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/collapse.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/collapse.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/date-picker.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/date-picker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/form.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/form.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/icon.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/icon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/index.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/input-number.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/input-number.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/message-box.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/message-box.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/message.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/message.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/notification.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/notification.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/pagination.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/pagination.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/radio.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/radio.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/select-dropdown.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/select-dropdown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/select.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/select.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/slider.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/table-column.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/table-column.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/table.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/table.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/tabs.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/tabs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/tag.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/tag.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/time-picker.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/time-picker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/time-select.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/time-select.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/tooltip.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/tooltip.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/upload.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/theme-default/upload.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/time-picker.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/time-picker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/time-select.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/time-select.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/tooltip.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/tree.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/tree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/upload.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/upload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/utils/popup/index.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/utils/popup/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/utils/vdom.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/utils/vdom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/utils/vue-popper.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/lib/utils/vue-popper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/package.json" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/autocomplete/src/autocomplete-suggestions.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/autocomplete/src/autocomplete-suggestions.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/autocomplete/src/autocomplete.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/autocomplete/src/autocomplete.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/badge/src/main.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/badge/src/main.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/carousel/src/item.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/carousel/src/item.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/carousel/src/main.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/carousel/src/main.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/date-picker/src/basic/date-table.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/date-picker/src/basic/date-table.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/date-picker/src/basic/time-spinner.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/date-picker/src/basic/time-spinner.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/date-picker/src/panel/time-range.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/date-picker/src/panel/time-range.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/date-picker/src/panel/time.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/date-picker/src/panel/time.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/date-picker/src/picker.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/date-picker/src/picker.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/date-picker/src/util/index.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/date-picker/src/util/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/dialog/src/component.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/dialog/src/component.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/form/src/form-item.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/form/src/form-item.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/input-number/src/input-number.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/input-number/src/input-number.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/input/src/calcTextareaHeight.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/input/src/calcTextareaHeight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/input/src/input.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/input/src/input.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/loading/src/loading.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/loading/src/loading.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/menu/src/menu-item-group.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/menu/src/menu-item-group.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/menu/src/menu-item.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/menu/src/menu-item.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/menu/src/menu-mixin.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/menu/src/menu-mixin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/menu/src/menu.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/menu/src/menu.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/menu/src/submenu.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/menu/src/submenu.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/message-box/src/main.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/message-box/src/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/message-box/src/main.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/message-box/src/main.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/message/src/main.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/message/src/main.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/radio/src/radio-group.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/radio/src/radio-group.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/scrollbar/src/main.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/scrollbar/src/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/scrollbar/src/util.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/scrollbar/src/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/select/src/option.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/select/src/option.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/select/src/select-dropdown.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/select/src/select-dropdown.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/select/src/select.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/select/src/select.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/slider/src/main.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/slider/src/main.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/steps/src/step.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/steps/src/step.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/steps/src/steps.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/steps/src/steps.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/table/README.md" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/table/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/table/package.json" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/table/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/table/src/table-body.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/table/src/table-body.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/table/src/table-column.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/table/src/table-column.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/table/src/table-header.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/table/src/table-header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/table/src/table-store.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/table/src/table-store.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/table/src/table.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/table/src/table.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/tabs/src/tab-bar.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/tabs/src/tab-bar.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/tabs/src/tab-pane.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/tabs/src/tab-pane.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/tabs/src/tabs.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/tabs/src/tabs.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/autocomplete.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/autocomplete.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/base.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/carousel-item.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/carousel-item.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/carousel.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/cascader.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/cascader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/collapse.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/collapse.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/date-picker.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/date-picker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/form.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/form.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/icon.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/icon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/index.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/input-number.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/input-number.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/message-box.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/message-box.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/message.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/message.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/notification.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/notification.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/pagination.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/pagination.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/radio.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/radio.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/select-dropdown.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/select-dropdown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/select.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/select.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/slider.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/table-column.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/table-column.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/table.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/table.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/tabs.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/tabs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/tag.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/tag.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/time-picker.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/time-picker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/time-select.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/time-select.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/tooltip.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/tooltip.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/upload.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/lib/upload.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/package.json" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/autocomplete.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/autocomplete.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/carousel-item.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/carousel-item.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/carousel.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/cascader.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/cascader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/collapse.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/collapse.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/common/transition.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/common/transition.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/common/var.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/common/var.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/date-picker/date-table.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/date-picker/date-table.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/date-picker/month-table.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/date-picker/month-table.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/date-picker/time-spinner.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/date-picker/time-spinner.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/date-picker/year-table.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/date-picker/year-table.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/form.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/form.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/icon.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/icon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/index.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/input-number.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/input-number.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/input.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/input.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/message-box.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/message-box.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/message.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/message.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/notification.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/notification.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/radio.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/radio.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/select-dropdown.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/select-dropdown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/slider.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/table.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/table.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/tabs.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/tabs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/tooltip.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/tooltip.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/upload.css" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/theme-default/src/upload.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/tree/src/model/tree-store.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/tree/src/model/tree-store.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/tree/src/tree-node.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/tree/src/tree-node.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/tree/src/tree.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/tree/src/tree.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/upload/src/ajax.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/upload/src/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/upload/src/iframe-upload.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/upload/src/iframe-upload.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/upload/src/index.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/upload/src/index.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/upload/src/upload-list.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/upload/src/upload-list.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/upload/src/upload.vue" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/packages/upload/src/upload.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/index.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/format.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/format.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/bg.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/da.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/de.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/en.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/es.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/fa.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/fi.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/fr.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/id.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/it.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/ja.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/ko.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/nb-NO.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/nb-NO.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/nl.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/pl.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/pt-br.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/pt-br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/pt.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/ru-RU.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/ru-RU.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/th.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/tr-TR.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/tr-TR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/vi.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/zh-CN.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/zh-CN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/zh-TW.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/locale/lang/zh-TW.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/utils/popup/index.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/utils/popup/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/utils/vdom.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/utils/vdom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/utils/vue-popper.js" afterPath="$PROJECT_DIR$/catty-service/target/classes/static/node_modules/element-ui/src/utils/vue-popper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/ecej-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/ecej-service/target/" />
+    <ignored path="$PROJECT_DIR$/ecej-charge-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/ecej-charge-service/target/" />
+    <ignored path="$PROJECT_DIR$/market-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/market-service/target/" />
+    <ignored path="$PROJECT_DIR$/core/target/" />
+    <ignored path="$PROJECT_DIR$/catty-service/target/" />
+    <ignored path="$PROJECT_DIR$/catty-service-api/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="54" column="29" lean-forward="false" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeback.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/homeback.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="765" column="84" lean-forward="false" selection-start-line="765" selection-start-column="79" selection-end-line="765" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="797" column="49" lean-forward="false" selection-start-line="797" selection-start-column="44" selection-end-line="797" selection-end-column="49" />
+              <folding>
+                <element signature="n#style#0;n#el-table#0;n#div#2;n#aside#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-table#0;n#div#2;n#aside#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExpenseServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/service/impl/ExpenseServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImportMailController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/ImportMailController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="425" column="62" lean-forward="false" selection-start-line="425" selection-start-column="48" selection-end-line="425" selection-end-column="62" />
+              <folding>
+                <element signature="method#importemail#0;class#ImportMailController#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/static/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="981" column="38" lean-forward="false" selection-start-line="981" selection-start-column="38" selection-end-line="981" selection-end-column="38" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>var newExpensesData =</find>
+      <find>var newExpensesData =</find>
+      <find>var invoicesData =</find>
+      <find>Projects</find>
+      <find>changeMain</find>
+      <find>local</find>
+      <find>modal-delete-expenses</find>
+      <find>addExpensesData</find>
+      <find>delInvoice</find>
+      <find>el-too</find>
+      <find>comma</find>
+      <find>sign</find>
+      <find>inputSearch</find>
+      <find>loadExpense</find>
+      <find>invoicesDataPageSize</find>
+      <find>handleCurrentInvoiceChange</find>
+      <find>fil</find>
+      <find>modal-edit-added-expenses</find>
+      <find>open-modal-edit-added-expenses</find>
+      <find>delIn</find>
+      <find>filter</find>
+      <find>editActiveInvoice</find>
+      <find>invoicesData</find>
+      <find>filteredInvoices</find>
+      <find>changeInvoicePage</find>
+      <find>viewExpenseOpen</find>
+      <find>test.yuewei.site</find>
+      <find>view Expense</find>
+      <find>filterView</find>
+      <find>localhost</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>com.ecej.uc.po.MarketPo</replace>
+      <replace>com.ecej.uc.po.MarkettypePo</replace>
+      <replace>market</replace>
+      <replace>MarketlistingPo</replace>
+      <replace>marketListingService</replace>
+      <replace>&lt;a href=&quot;javascript:;&quot; class=&quot;btn btn-green&quot; onclick=&quot;onClik()&quot;&gt;Continue&lt;/a&gt;</replace>
+      <replace>UserPo</replace>
+      <replace>User</replace>
+      <replace>UserService</replace>
+      <replace>catty</replace>
+      <replace>com.ecej.uc.po.</replace>
+      <replace>Project</replace>
+      <replace>Emaillist</replace>
+      <replace>Expense</replace>
+      <replace>width:250px;white-space:nowrap;</replace>
+      <replace>v-bind:src =scope.row.serviceurl</replace>
+      <replace>invoicesData</replace>
+      <replace>vm.$nextTick</replace>
+      <replace>parseFloat</replace>
+      <replace>vm.$data.appLoading = true;</replace>
+      <replace>&amp;q=</replace>
+      <replace>vo.ExpenseVo</replace>
+      <replace>invoicesDataT.price</replace>
+      <replace>newExpensesDataLength</replace>
+      <replace>addExp[adnum]</replace>
+      <replace>159.203.175.240</replace>
+      <replace>yuewei.site</replace>
+      <replace>localhost</replace>
+      <replace>test.yuewei.site</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\web\工程\后端項目\trunk\market\market-service</dir>
+    </dirStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/catty-service-api/src/main/java/com/ecej/uc/service/UserService.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/resources/remote-db.properties" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/resources/remote-dubbo.properties" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/resources/remote-mq.properties" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/resources/remote-redis.properties" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/resources/mybatis/ProjectMapper.xml" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/resources/mybatis/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/google/GsonUtility.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/service/impl/ProjectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/catty-service-api/src/main/java/com/ecej/uc/service/ProjectService.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/ProjectController.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/resources/remote-googleclient.properties" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/service/impl/EmailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/catty-service-api/src/main/java/com/ecej/uc/service/EmaillistService.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/ModelViewController.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/service/impl/TargetServiceImpl.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/close.jsp" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/config/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/catty-service-api/src/main/java/com/ecej/uc/po/ExpensePo.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/interceptor/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/GoogleCallBackController.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/utils/HttpClientTreadUtil.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/Test.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/resources/banner.txt" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/utils/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/EmailController.java" />
+        <option value="$PROJECT_DIR$/catty-service-api/src/main/java/com/ecej/uc/po/EmaillistPo.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/resources/mybatis/EmaillistMapper.xml" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/utils/ImportUtil.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/utils/PageView.java" />
+        <option value="$PROJECT_DIR$/catty-service-api/src/main/java/com/ecej/uc/vo/ExpensePo.java" />
+        <option value="$PROJECT_DIR$/catty-service-api/src/main/java/com/ecej/uc/vo/ExpenseVo.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/resources/mybatis/ExpenseVoMapper.xml" />
+        <option value="$PROJECT_DIR$/catty-service-api/src/main/java/com/ecej/uc/dto/PageView.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/service/impl/ExpenseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/catty-service-api/src/main/java/com/ecej/uc/service/ExpenseService.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/ExpenseController.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/resources/mybatis/ExpenseMapper.xml" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/ImportMailController.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/catty-service/pom.xml" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/GoogleLoginController.java" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/resources/static/node_modules/element-ui/lib/locale/index.js" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/home.jsp" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/resources/static/js/script.js" />
+        <option value="$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="release" />
+      </list>
+    </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="test" />
+        <option value="dev" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="catty-service-api" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="catty-service" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="catty-service" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="catty-service" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="catty-service" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spring-boot" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="catty" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="catty" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Profiles" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProfilesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/catty-service/src/main/resources/static/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1932" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catty-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/新建文件夹 (3)/NewCatty" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15406163" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="SearchEverywhereHistoryKey" value="script.js&#9;FILE&#9;file://D:/web/工程/后端項目/trunk/catty/catty-service/src/main/resources/static/js/script.js&#10;index.&#9;FILE&#9;file://D:/web/工程/后端項目/trunk/catty/catty-service/src/main/webapp/WEB-INF/jsp/index.jsp&#10;scrip&#9;FILE&#9;file://D:/web/工程/后端項目/trunk/catty/catty-service/src/main/resources/static/js/script.js&#10;home.j&#9;FILE&#9;file://D:/web/工程/后端項目/trunk/catty/catty-service/src/main/webapp/WEB-INF/jsp/home.jsp&#10;expense&#9;FILE&#9;file://D:/web/工程/后端項目/trunk/catty/catty-service/src/main/java/com/ecej/controller/ExpenseController.java&#10;projectC&#9;PSI&#9;JAVA://com.ecej.controller.ProjectController&#10;expensec&#9;FILE&#9;file://D:/web/工程/后端項目/trunk/catty/catty-service/src/main/java/com/ecej/controller/ExpenseController.java&#10;home.&#9;FILE&#9;file://D:/web/工程/后端項目/trunk/catty/catty-service/src/main/webapp/WEB-INF/jsp/home.jsp&#10;ex&#9;FILE&#9;file://D:/web/工程/后端項目/trunk/catty/catty-service/src/main/java/com/ecej/controller/ExpenseController.java&#10;projec&#9;FILE&#9;file://D:/web/工程/后端項目/trunk/catty/catty-service/src/main/java/com/ecej/controller/ProjectController.java&#10;home.jsp&#9;FILE&#9;file://D:/web/工程/后端項目/trunk/catty/catty-service/src/main/webapp/WEB-INF/jsp/home.jsp&#10;el-icon-edit&#9;null&#9;null&#10;patchgas&#9;null&#9;null" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ecej.uc.dto" />
+      <recent name="com.ecej.uc.vo" />
+      <recent name="com.ecej.utils" />
+      <recent name="com.ecej.uc.interceptor" />
+      <recent name="com.ecej.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web\工程\后端項目\trunk\catty\catty-service\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\web\工程\后端項目\trunk\catty\catty-service\src\main\resources\mybatis" />
+      <recent name="D:\web\工程\后端項目\trunk\catty\catty-service\src\main\resources\static" />
+      <recent name="D:\web\工程\后端項目\trunk\catty\catty-service-api\src\main\java\com\ecej\uc\po" />
+      <recent name="D:\web\工程\后端項目\trunk\catty\catty-service\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.catty-service [spring-boot:run]">
+    <configuration default="false" name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ecej.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecej.Application" />
+      <module name="catty-service" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="catty-service [spring-boot:run] (1)" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map>
+                <entry key="dev" value="true" />
+                <entry key="test" value="false" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/catty-service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ecej.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.ecej.controller.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="catty-service" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="catty-service [spring-boot:run] (2)" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map>
+                <entry key="test" value="true" />
+                <entry key="dev" value="false" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/catty-service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="catty-service [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map>
+                <entry key="dev" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/catty-service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ecej-service-api" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="Startup" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecej.uc.run.Startup" />
+      <module name="ecej-service" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Startup" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.catty-service [spring-boot:run] (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="4" class="java.lang.String" itemvalue="Maven.catty-service [spring-boot:run] (2)" />
+      <item index="5" class="java.lang.String" itemvalue="Maven.catty-service [spring-boot:run]" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Maven.catty-service [spring-boot:run]" />
+        <item index="1" class="java.lang.String" itemvalue="Maven.catty-service [spring-boot:run] (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.Application" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="4" class="java.lang.String" itemvalue="Maven.catty-service [spring-boot:run] (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\yue\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\web\工程\后端項目\trunk\catty" />
+          <option name="myCopyRoot" value="D:\web\工程\后端項目\trunk\catty" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\web\工程\后端項目\trunk\catty\.idea" />
+          <option name="myCopyRoot" value="D:\web\工程\后端項目\trunk\catty\.idea" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\web\工程\后端項目\trunk\catty\catty-service" />
+          <option name="myCopyRoot" value="D:\web\工程\后端項目\trunk\catty\catty-service" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\web\工程\后端項目\trunk\catty\catty-service-api" />
+          <option name="myCopyRoot" value="D:\web\工程\后端項目\trunk\catty\catty-service-api" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\web\工程\后端項目\trunk\catty" />
+          <option name="myCopyRoot" value="D:\web\工程\后端項目\trunk\catty" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4073a8b4-e40f-45a4-9a43-f8d3dac82192" name="Default" comment="" />
+      <created>1486085143648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1486085143648</updated>
+      <workItem from="1486085145293" duration="21270000" />
+      <workItem from="1486176534785" duration="5571000" />
+      <workItem from="1486204603652" duration="617000" />
+      <workItem from="1486545301868" duration="2000" />
+      <workItem from="1486964261299" duration="8162000" />
+      <workItem from="1487057867709" duration="2196000" />
+      <workItem from="1487122921161" duration="8000" />
+      <workItem from="1487125319529" duration="1205000" />
+      <workItem from="1487130706270" duration="6445000" />
+      <workItem from="1488200495363" duration="14698000" />
+      <workItem from="1488222557102" duration="19957000" />
+      <workItem from="1488351214760" duration="6513000" />
+      <workItem from="1488363917714" duration="56000" />
+      <workItem from="1488363980857" duration="38000" />
+      <workItem from="1488364025474" duration="1442000" />
+      <workItem from="1488429800734" duration="7674000" />
+      <workItem from="1488439333563" duration="18592000" />
+      <workItem from="1488467987763" duration="2151000" />
+      <workItem from="1488504833624" duration="26562000" />
+      <workItem from="1488546326064" duration="3133000" />
+      <workItem from="1488591934576" duration="12661000" />
+      <workItem from="1488605245911" duration="10089000" />
+      <workItem from="1488679300096" duration="7000" />
+      <workItem from="1488679585486" duration="85411000" />
+      <workItem from="1488865084347" duration="17101000" />
+      <workItem from="1488901382874" duration="287000" />
+      <workItem from="1488901832436" duration="2079000" />
+      <workItem from="1488942293690" duration="23384000" />
+      <workItem from="1489028094404" duration="3314000" />
+      <workItem from="1489039557404" duration="23676000" />
+      <workItem from="1489110435759" duration="27090000" />
+      <workItem from="1489193652642" duration="58000" />
+      <workItem from="1489193902195" duration="125000" />
+      <workItem from="1489194061671" duration="95000" />
+      <workItem from="1489194172434" duration="23321000" />
+      <workItem from="1489368682483" duration="6239000" />
+      <workItem from="1489385178302" duration="12431000" />
+      <workItem from="1489469724850" duration="10380000" />
+      <workItem from="1489494326111" duration="3375000" />
+      <workItem from="1489542241128" duration="604000" />
+      <workItem from="1489645117276" duration="20646000" />
+      <workItem from="1489714076602" duration="15493000" />
+      <workItem from="1489744416021" duration="5656000" />
+      <workItem from="1489893990076" duration="8957000" />
+    </task>
+    <task id="LOCAL-00001" summary="Test框架部分提交">
+      <created>1487125819032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1487125819032</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Test框架部分提交">
+      <created>1488206639866</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1488206639866</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Test框架部分提交">
+      <created>1488241254664</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1488241254664</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test框架部分提交">
+      <created>1488243571211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1488243571211</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Test框架部分提交">
+      <created>1488429957506</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1488429957506</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Test框架部分提交">
+      <created>1488546273755</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1488546273755</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Test框架部分提交">
+      <created>1488548301023</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1488548301023</updated>
+    </task>
+    <task id="LOCAL-00008" summary="代码提交 注释：（1.2.3.）">
+      <created>1488681409724</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1488681409724</updated>
+    </task>
+    <task id="LOCAL-00009" summary="代码提交 注释：（1.2.3.）">
+      <created>1489282401070</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1489282401070</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UcBaseTest - 2017.02.03 at 09h 47m 44s.xml">
+      <configuration name="UcBaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UcDemoServiceTest - 2017.02.03 at 09h 48m 06s.xml">
+      <configuration name="UcDemoServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UcDemoServiceTest - 2017.02.15 at 10h 23m 07s.xml">
+      <configuration name="UcDemoServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UcDemoServiceTest_userServiceTest - 2017.02.15 at 13h 49m 48s.xml">
+      <configuration name="UcDemoServiceTest.userServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UcDemoServiceTest_userServiceTest - 2017.02.15 at 13h 50m 00s.xml">
+      <configuration name="UcDemoServiceTest.userServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UcDemoServiceTest_userServiceTest - 2017.02.15 at 13h 50m 21s.xml">
+      <configuration name="UcDemoServiceTest.userServiceTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="458771000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1932" height="1047" extended-state="1" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26435536" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23344018" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14232409" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2814302" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41495124" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3402626" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19284189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34561214" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26435536" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3514957" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14232409" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2814302" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41495124" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33694476" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2735043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34561214" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
+    <confirmMoveToFailedCommit value="1" />
+    <MESSAGE value="Test框架部分提交" />
+    <MESSAGE value="代码提交 注释：（1.2.3.）" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码提交 注释：（1.2.3.）" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/ImportMailController.java</url>
+          <line>258</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/catty-service/src/main/resources/static/node_modules/element-ui/lib/locale/index.js</url>
+          <line>17</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="31" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-jasper/8.5.4/tomcat-embed-jasper-8.5.4.jar!/org/apache/jasper/compiler/SmapUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5700">
+          <caret line="350" column="0" lean-forward="false" selection-start-line="350" selection-start-column="0" selection-end-line="350" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service-api/src/main/java/com/ecej/uc/po/EmaillistPo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-817">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/utils/HttpClientTreadUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="238" column="69" lean-forward="false" selection-start-line="238" selection-start-column="69" selection-end-line="238" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/utils/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="93" column="19" lean-forward="false" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/utils/ImportUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="105" column="9" lean-forward="false" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/EmailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/utils/PageView.java" />
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/base/BaseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#el-table#0;n#div#2;n#aside#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-table#0;n#div#2;n#aside#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/mybatis/ExpenseVoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service-api/src/main/java/com/ecej/uc/dto/PageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service-api/src/main/java/com/ecej/uc/service/ExpenseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/base/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="175" column="44" lean-forward="false" selection-start-line="175" selection-start-column="33" selection-end-line="175" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/home_back2.jsp" />
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/GoogleCallBackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/service/impl/ProjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/ExpenseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/mybatis/EmaillistMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="96" column="4" lean-forward="false" selection-start-line="94" selection-start-column="35" selection-end-line="96" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/mybatis/ExpenseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2109">
+          <caret line="111" column="19" lean-forward="false" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service-api/src/main/java/com/ecej/uc/vo/ExpenseVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/home2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="1269" column="28" lean-forward="false" selection-start-line="1269" selection-start-column="15" selection-end-line="1269" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/getsentry/raven/raven/7.8.5/raven-7.8.5.jar!/com/getsentry/raven/environment/RavenEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/getsentry/raven/raven/7.8.5/raven-7.8.5.jar!/com/getsentry/raven/RavenContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/getsentry/raven/raven/7.8.5/raven-7.8.5.jar!/com/getsentry/raven/RavenFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/getsentry/raven/raven/7.8.5/raven-7.8.5.jar!/com/getsentry/raven/servlet/RavenServletContainerInitializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/getsentry/raven/raven/7.8.5/raven-7.8.5.jar!/com/getsentry/raven/servlet/RavenServletRequestListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/getsentry/raven/raven/7.8.5/raven-7.8.5.jar!/META-INF/services/com.getsentry.raven.RavenFactory">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/getsentry/raven/raven/7.8.5/raven-7.8.5.jar!/META-INF/services/javax.servlet.ServletContainerInitializer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/getsentry/raven/raven/7.8.5/raven-7.8.5.jar!/com/getsentry/raven/Raven.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/interceptor/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service-api/src/main/java/com/ecej/uc/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service-api/src/main/java/com/ecej/uc/dto/ResultModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/static/node_modules/element-ui/lib/locale/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/static/node_modules/element-ui/src/locale/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/static/node_modules/element-ui/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="0" column="23721" lean-forward="false" selection-start-line="0" selection-start-column="23721" selection-end-line="0" selection-end-column="23721" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/static/node_modules/vue/dist/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="3681" column="29" lean-forward="false" selection-start-line="3681" selection-start-column="29" selection-end-line="3681" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/GoogleLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="133" column="66" lean-forward="false" selection-start-line="133" selection-start-column="66" selection-end-line="133" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/service/impl/ExpenseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/ImportMailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="425" column="62" lean-forward="false" selection-start-line="425" selection-start-column="48" selection-end-line="425" selection-end-column="62" />
+          <folding>
+            <element signature="method#importemail#0;class#ImportMailController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/homeback.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="765" column="84" lean-forward="false" selection-start-line="765" selection-start-column="79" selection-end-line="765" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="797" column="49" lean-forward="false" selection-start-line="797" selection-start-column="44" selection-end-line="797" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#el-table#0;n#div#2;n#aside#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-table#0;n#div#2;n#aside#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/static/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="981" column="38" lean-forward="false" selection-start-line="981" selection-start-column="38" selection-end-line="981" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="54" column="29" lean-forward="false" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ecej-charge-service:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>catty-service</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean:clean" />
+  </component>
+</project>

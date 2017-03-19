@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecej.uc.po.UserPo">
+	<resultMap id="BaseResultMap" type="com.ecej.uc.po.UserPo">
+		<id column="uid" property="uid" />
+		<result column="email" property="email" />
+	</resultMap>
+
+	<sql id="Table_Name">
+		user
+	</sql>
+
+	<sql id="Base_Column">
+		uid,
+		email
+	</sql>
+
+	<sql id="Base_Where">
+		<trim suffixOverrides="AND">
+		<if test="uid != null">
+			uid= #{uid}
+	           AND 
+		</if>
+		<if test="email != null">
+			email= #{email}
+		</if>
+		</trim>
+	</sql>
+	
+    <sql id="Base_Select">
+			select
+		<include refid="Base_Column" />
+		from
+		<include refid="Table_Name" />
+		<where>
+			<include refid="Base_Where" />
+		</where>
+	</sql>
+
+
+
+	<insert id="insert" parameterType="com.ecej.uc.po.UserPo" useGeneratedKeys="true" keyProperty="uid">
+		insert into
+		<include refid="Table_Name" />
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+	<if test="uid != null">
+		uid,
+	</if>
+	<if test="email != null">
+		email,
+	</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+	<if test="uid != null">
+		#{uid},
+	</if>
+	<if test="email != null">
+		#{email},
+	</if>
+		</trim>
+	</insert>
+	
+	<insert id="insertList" parameterType="java.util.List" >
+	    /*!mycat:catlet=demo.catlets.BatchInsertSequence */
+	    insert into 
+		<include refid="Table_Name" />
+			(	
+
+					email
+			) 
+	    values
+	    <foreach collection="list" item="item" separator=",">
+			(	
+
+						#{item.email}
+			)
+	    </foreach>
+	 </insert>
+
+	<update id="update" parameterType="com.ecej.uc.po.UserPo">
+		update
+		<include refid="Table_Name" />
+		<set>
+	<if test="uid != null">
+		uid=#{uid},
+	</if>
+	<if test="email != null">
+		email=#{email},
+	</if>
+		</set>
+		where 
+			      uid=#{uid}
+	</update>
+
+	<update id="updateByEntity" parameterType="com.ecej.uc.po.UserPo">
+		UPDATE
+		<include refid="Table_Name" />
+		<set>
+			<if test="s.email != null">
+                    email=#{s.email}
+			</if>
+		</set>
+		<where> 
+			<trim prefix="(" suffix=")" suffixOverrides="AND">
+			<if test="w.uid != null">
+                    uid=#{w.uid}
+	                   AND 
+ 			</if>
+			<if test="w.email != null">
+                    email=#{w.email}
+ 			</if>
+			</trim>
+		</where>
+	</update>
+
+	<delete id="delete" parameterType="com.ecej.uc.po.UserPo">
+		delete from
+		<include refid="Table_Name" />
+		<where>
+			<include refid="Base_Where" />
+		</where>
+	</delete>
+
+	<select id="count" parameterType="java.util.Map" resultType="int">
+		select count(1) from
+		<include refid="Table_Name" />
+		<where>
+			<include refid="Base_Where" />
+		</where>
+	</select>
+
+	<select id="selectOne" parameterType="com.ecej.uc.po.UserPo" resultMap="BaseResultMap">
+	  <include refid="Base_Select" />
+	</select>
+
+	<select id="selectList"  parameterType="com.ecej.uc.po.UserPo" resultMap="BaseResultMap">
+	    <include refid="Base_Select" />
+	</select>
+		
+
+     <select id="selectForUpdate" parameterType="com.ecej.uc.po.UserPo" resultMap="BaseResultMap" useCache="false">
+		 <include refid="Base_Select" />
+		for update
+	</select>
+	
+
+</mapper>

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecej.uc.po.ExpensePo">
+	<resultMap id="BaseResultMap" type="com.ecej.uc.po.ExpensePo">
+		<id column="eid" property="eid" />
+		<result column="emailid" property="emailid" />
+		<result column="servicename" property="servicename" />
+		<result column="serviceurl" property="serviceurl" />
+		<result column="cost" property="cost" />
+		<result column="invoice_date" property="invoiceDate" />
+		<result column="mail_id" property="mailId" />
+		<result column="mail_content" property="mailContent" />
+		<result column="mail_subject" property="mailSubject" />
+		<result column="target" property="target"/>
+		<result column="status" property="status"/>
+	</resultMap>
+	<update id="updateByName" parameterType="com.ecej.uc.po.ExpensePo">
+		update
+		<include refid="Table_Name"/>
+		<set>
+			<if test="serviceurl != null">
+				serviceurl=#{serviceurl},
+				servicename=#{serviceurl}
+			</if>
+
+		</set>
+		where
+		servicename=#{servicename}
+		and status='1'
+	</update>
+
+	<sql id="Table_Name">
+		expense
+	</sql>
+
+	<sql id="Base_Column">
+		eid,
+		emailid,
+		servicename,
+		serviceurl,
+		cost,
+		invoice_date,
+		mail_id,
+		mail_content,
+		mail_subject,
+		target,
+		status
+	</sql>
+
+	<sql id="Base_Where">
+		<trim suffixOverrides="AND">
+		<if test="eid != null">
+			eid= #{eid}
+	           AND 
+		</if>
+		<if test="emailid != null">
+			emailid= #{emailid}
+	           AND 
+		</if>
+		<if test="servicename != null">
+			servicename= #{servicename}
+	           AND 
+		</if>
+		<if test="serviceurl != null">
+			serviceurl= #{serviceurl}
+	           AND 
+		</if>
+		<if test="cost != null">
+			cost= #{cost}
+	           AND 
+		</if>
+		<if test="invoiceDate != null">
+			invoice_date= #{invoiceDate}
+	           AND 
+		</if>
+		<if test="mailId != null">
+			mail_id= #{mailId}
+	           AND 
+		</if>
+		<if test="mailContent != null">
+			mail_content= #{mailContent}
+	           AND 
+		</if>
+		<if test="mailSubject != null">
+			mail_subject= #{mailSubject}
+			AND
+		</if>
+			<if test="target != null">
+				target= #{target}
+				AND
+			</if>
+			<if test="status != null">
+				status= #{status}
+			</if>
+		</trim>
+	</sql>
+	
+    <sql id="Base_Select">
+			select
+		<include refid="Base_Column" />
+		from
+		<include refid="Table_Name" />
+		<where>
+			<include refid="Base_Where" />
+		</where>
+	</sql>
+
+
+
+	<insert id="insert" parameterType="com.ecej.uc.po.ExpensePo" useGeneratedKeys="true" keyProperty="eid">
+		insert into
+		<include refid="Table_Name" />
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+	<if test="eid != null">
+		eid,
+	</if>
+	<if test="emailid != null">
+		emailid,
+	</if>
+	<if test="servicename != null">
+		servicename,
+	</if>
+	<if test="serviceurl != null">
+		serviceurl,
+	</if>
+	<if test="cost != null">
+		cost,
+	</if>
+	<if test="invoiceDate != null">
+		invoice_date,
+	</if>
+	<if test="mailId != null">
+		mail_id,
+	</if>
+	<if test="mailContent != null">
+		mail_content,
+	</if>
+	<if test="mailSubject != null">
+		mail_subject,
+	</if>
+			<if test="target != null">
+				target,
+			</if>
+			<if test="status != null">
+				status,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+	<if test="eid != null">
+		#{eid},
+	</if>
+	<if test="emailid != null">
+		#{emailid},
+	</if>
+	<if test="servicename != null">
+		#{servicename},
+	</if>
+	<if test="serviceurl != null">
+		#{serviceurl},
+	</if>
+	<if test="cost != null">
+		#{cost},
+	</if>
+	<if test="invoiceDate != null">
+		#{invoiceDate},
+	</if>
+	<if test="mailId != null">
+		#{mailId},
+	</if>
+	<if test="mailContent != null">
+		#{mailContent},
+	</if>
+	<if test="mailSubject != null">
+		#{mailSubject},
+	</if>
+			<if test="target != null">
+				#{target},
+			</if>
+			<if test="status != null">
+				#{status}
+			</if>
+		</trim>
+	</insert>
+	
+	<insert id="insertList" parameterType="java.util.List" >
+	    /*!mycat:catlet=demo.catlets.BatchInsertSequence */
+	    insert into 
+		<include refid="Table_Name" />
+			(	
+
+					emailid
+			           ,
+
+					servicename
+			           ,
+
+					serviceurl
+			           ,
+
+					cost
+			           ,
+
+					invoice_date
+			           ,
+
+					mail_id
+			           ,
+
+					mail_content
+			           ,
+
+					mail_subject
+		,
+		target
+		,
+		status
+			) 
+	    values
+	    <foreach collection="list" item="item" separator=",">
+			(	
+
+						#{item.emailid}
+				           ,
+
+						#{item.servicename}
+				           ,
+
+						#{item.serviceurl}
+				           ,
+
+						#{item.cost}
+				           ,
+
+						#{item.invoiceDate}
+				           ,
+
+						#{item.mailId}
+				           ,
+
+						#{item.mailContent}
+				           ,
+
+						#{item.mailSubject}
+			,
+			#{item.target}
+			,
+			#{item.status}
+			)
+	    </foreach>
+	 </insert>
+
+	<update id="update" parameterType="com.ecej.uc.po.ExpensePo">
+		update
+		<include refid="Table_Name" />
+		<set>
+	<if test="eid != null">
+		eid=#{eid},
+	</if>
+	<if test="emailid != null">
+		emailid=#{emailid},
+	</if>
+	<if test="servicename != null">
+		servicename=#{servicename},
+	</if>
+	<if test="serviceurl != null">
+		serviceurl=#{serviceurl},
+	</if>
+	<if test="cost != null">
+		cost=#{cost},
+	</if>
+	<if test="invoiceDate != null">
+		invoice_date=#{invoiceDate},
+	</if>
+	<if test="mailId != null">
+		mail_id=#{mailId},
+	</if>
+	<if test="mailContent != null">
+		mail_content=#{mailContent},
+	</if>
+	<if test="mailSubject != null">
+		mail_subject=#{mailSubject},
+	</if>
+			<if test="target != null">
+				target=#{target},
+			</if>
+			<if test="status != null">
+				status=#{status}
+			</if>
+		</set>
+		where 
+			      eid=#{eid}
+	</update>
+
+	<update id="updateByEntity" parameterType="com.ecej.uc.po.ExpensePo">
+		UPDATE
+		<include refid="Table_Name" />
+		<set>
+			<if test="s.emailid != null">
+                    emailid=#{s.emailid},
+			</if>
+			<if test="s.servicename != null">
+                    servicename=#{s.servicename},
+			</if>
+			<if test="s.serviceurl != null">
+                    serviceurl=#{s.serviceurl},
+			</if>
+			<if test="s.cost != null">
+                    cost=#{s.cost},
+			</if>
+			<if test="s.invoiceDate != null">
+                    invoice_date=#{s.invoiceDate},
+			</if>
+			<if test="s.mailId != null">
+                    mail_id=#{s.mailId},
+			</if>
+			<if test="s.mailContent != null">
+                    mail_content=#{s.mailContent},
+			</if>
+			<if test="s.mailSubject != null">
+				mail_subject=#{s.mailSubject},
+			</if>
+			<if test="s.target != null">
+				target=#{s.target},
+			</if>
+			<if test="s.status != null">
+				status=#{s.status}
+			</if>
+		</set>
+		<where> 
+			<trim prefix="(" suffix=")" suffixOverrides="AND">
+			<if test="w.eid != null">
+                    eid=#{w.eid}
+	                   AND 
+ 			</if>
+			<if test="w.emailid != null">
+                    emailid=#{w.emailid}
+	                   AND 
+ 			</if>
+			<if test="w.servicename != null">
+                    servicename=#{w.servicename}
+	                   AND 
+ 			</if>
+			<if test="w.serviceurl != null">
+                    serviceurl=#{w.serviceurl}
+	                   AND 
+ 			</if>
+			<if test="w.cost != null">
+                    cost=#{w.cost}
+	                   AND 
+ 			</if>
+			<if test="w.invoiceDate != null">
+                    invoice_date=#{w.invoiceDate}
+	                   AND 
+ 			</if>
+			<if test="w.mailId != null">
+                    mail_id=#{w.mailId}
+	                   AND 
+ 			</if>
+			<if test="w.mailContent != null">
+                    mail_content=#{w.mailContent}
+	                   AND 
+ 			</if>
+			<if test="w.mailSubject != null">
+                    mail_subject=#{w.mailSubject}
+			</if>
+				<if test="w.target != null">
+					target=#{w.target}
+				</if>
+				<if test="w.status != null">
+					status=#{w.status}
+				</if>
+			</trim>
+		</where>
+	</update>
+
+	<delete id="delete" parameterType="com.ecej.uc.po.ExpensePo">
+		delete from
+		<include refid="Table_Name" />
+		<where>
+			<include refid="Base_Where" />
+		</where>
+	</delete>
+
+	<select id="count" parameterType="java.util.Map" resultType="int">
+		select count(1) from
+		<include refid="Table_Name" />
+		<where>
+			<include refid="Base_Where" />
+		</where>
+	</select>
+
+	<select id="selectOne" parameterType="com.ecej.uc.po.ExpensePo" resultMap="BaseResultMap">
+	  <include refid="Base_Select" />
+	</select>
+
+	<select id="selectList"  parameterType="com.ecej.uc.po.ExpensePo" resultMap="BaseResultMap">
+	    <include refid="Base_Select" />
+	</select>
+		
+
+     <select id="selectForUpdate" parameterType="com.ecej.uc.po.ExpensePo" resultMap="BaseResultMap" useCache="false">
+		 <include refid="Base_Select" />
+		for update
+	</select>
+	
+
+</mapper>

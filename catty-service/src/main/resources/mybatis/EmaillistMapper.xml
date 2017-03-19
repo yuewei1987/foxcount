@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecej.uc.po.EmaillistPo">
+	<resultMap id="BaseResultMap" type="com.ecej.uc.po.EmaillistPo">
+		<id column="eid" property="eid" />
+		<result column="pid" property="pid" />
+		<result column="uid" property="uid" />
+		<result column="emailaddress" property="emailaddress" />
+		<result column="accesstoken" property="accesstoken" />
+		<result column="refreshtoken" property="refreshtoken"/>
+		<result column="pagetoken" property="pagetoken"/>
+		<result column="gid" property="gid" />
+	</resultMap>
+
+	<sql id="Table_Name">
+		emaillist
+	</sql>
+
+	<sql id="Base_Column">
+		eid,
+		pid,
+		uid,
+		emailaddress,
+		accesstoken,
+		gid,
+		refreshtoken,
+		pagetoken
+	</sql>
+
+	<sql id="Base_Where">
+		<trim suffixOverrides="AND">
+		<if test="eid != null">
+			eid= #{eid}
+	           AND 
+		</if>
+		<if test="pid != null">
+			pid= #{pid}
+	           AND 
+		</if>
+		<if test="uid != null">
+			uid= #{uid}
+	           AND 
+		</if>
+		<if test="emailaddress != null">
+			emailaddress= #{emailaddress}
+	           AND 
+		</if>
+		<if test="accesstoken != null">
+			accesstoken= #{accesstoken}
+	           AND 
+		</if>
+		<if test="gid != null">
+			gid= #{gid}
+			AND
+		</if>
+			<if test="refreshtoken != null">
+				refreshtoken= #{refreshtoken}
+				AND
+			</if>
+			<if test="pagetoken != null">
+				pagetoken= #{pagetoken}
+			</if>
+		</trim>
+	</sql>
+	
+    <sql id="Base_Select">
+			select
+		<include refid="Base_Column" />
+		from
+		<include refid="Table_Name" />
+		<where>
+			<include refid="Base_Where" />
+		</where>
+	</sql>
+
+
+
+	<insert id="insert" parameterType="com.ecej.uc.po.EmaillistPo" useGeneratedKeys="true" keyProperty="eid">
+		insert into
+		<include refid="Table_Name" />
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+	<if test="eid != null">
+		eid,
+	</if>
+	<if test="pid != null">
+		pid,
+	</if>
+	<if test="uid != null">
+		uid,
+	</if>
+	<if test="emailaddress != null">
+		emailaddress,
+	</if>
+	<if test="accesstoken != null">
+		accesstoken,
+	</if>
+	<if test="gid != null">
+		gid,
+	</if>
+			<if test="refreshtoken != null">
+				refreshtoken,
+			</if>
+			<if test="pagetoken != null">
+				pagetoken,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+	<if test="eid != null">
+		#{eid},
+	</if>
+	<if test="pid != null">
+		#{pid},
+	</if>
+	<if test="uid != null">
+		#{uid},
+	</if>
+	<if test="emailaddress != null">
+		#{emailaddress},
+	</if>
+	<if test="accesstoken != null">
+		#{accesstoken},
+	</if>
+	<if test="gid != null">
+		#{gid},
+	</if>
+			<if test="refreshtoken != null">
+				#{refreshtoken},
+			</if>
+			<if test="pagetoken != null">
+				#{pagetoken},
+			</if>
+		</trim>
+	</insert>
+	
+	<insert id="insertList" parameterType="java.util.List" >
+	    /*!mycat:catlet=demo.catlets.BatchInsertSequence */
+	    insert into 
+		<include refid="Table_Name" />
+			(	
+
+					pid
+			           ,
+
+					uid
+			           ,
+
+					emailaddress
+			           ,
+
+					accesstoken
+			           ,
+
+		gid,
+		refreshtoken,
+		pagetoken
+			) 
+	    values
+	    <foreach collection="list" item="item" separator=",">
+			(	
+
+						#{item.pid}
+				           ,
+
+						#{item.uid}
+				           ,
+
+						#{item.emailaddress}
+				           ,
+
+						#{item.accesstoken}
+				           ,
+
+			#{item.gid} ,
+
+			#{item.refreshtoken},
+			#{item.pagetoken}
+
+			)
+	    </foreach>
+	 </insert>
+
+	<update id="update" parameterType="com.ecej.uc.po.EmaillistPo">
+		update
+		<include refid="Table_Name" />
+		<set>
+	<if test="eid != null">
+		eid=#{eid},
+	</if>
+	<if test="pid != null">
+		pid=#{pid},
+	</if>
+	<if test="uid != null">
+		uid=#{uid},
+	</if>
+	<if test="emailaddress != null">
+		emailaddress=#{emailaddress},
+	</if>
+	<if test="accesstoken != null">
+		accesstoken=#{accesstoken},
+	</if>
+	<if test="gid != null">
+		gid=#{gid},
+	</if>
+			<if test="refreshtoken != null">
+				refreshtoken=#{refreshtoken},
+			</if>
+			<if test="pagetoken != null">
+				pagetoken=#{pagetoken},
+			</if>
+		</set>
+		where 
+			      eid=#{eid}
+	</update>
+
+	<update id="updateByEntity" parameterType="com.ecej.uc.po.EmaillistPo">
+		UPDATE
+		<include refid="Table_Name" />
+		<set>
+			<if test="s.pid != null">
+                    pid=#{s.pid},
+			</if>
+			<if test="s.uid != null">
+                    uid=#{s.uid},
+			</if>
+			<if test="s.emailaddress != null">
+                    emailaddress=#{s.emailaddress},
+			</if>
+			<if test="s.accesstoken != null">
+                    accesstoken=#{s.accesstoken},
+			</if>
+			<if test="s.gid != null">
+                    gid=#{s.gid}
+			</if>
+			<if test="s.refreshtoken != null">
+				refreshtoken=#{s.refreshtoken}
+			</if>
+			<if test="s.pagetoken != null">
+				pagetoken=#{s.pagetoken}
+			</if>
+		</set>
+		<where> 
+			<trim prefix="(" suffix=")" suffixOverrides="AND">
+			<if test="w.eid != null">
+                    eid=#{w.eid}
+	                   AND 
+ 			</if>
+			<if test="w.pid != null">
+                    pid=#{w.pid}
+	                   AND 
+ 			</if>
+			<if test="w.uid != null">
+                    uid=#{w.uid}
+	                   AND 
+ 			</if>
+			<if test="w.emailaddress != null">
+                    emailaddress=#{w.emailaddress}
+	                   AND 
+ 			</if>
+			<if test="w.accesstoken != null">
+                    accesstoken=#{w.accesstoken}
+	                   AND 
+ 			</if>
+			<if test="w.gid != null">
+                    gid=#{w.gid}
+				AND
+			</if>
+				<if test="w.refreshtoken != null">
+					refreshtoken=#{w.refreshtoken}
+					AND
+				</if>
+				<if test="w.pagetoken != null">
+					pagetoken=#{w.pagetoken}
+				</if>
+			</trim>
+		</where>
+	</update>
+
+	<delete id="delete" parameterType="com.ecej.uc.po.EmaillistPo">
+		delete from
+		<include refid="Table_Name" />
+		<where>
+			<include refid="Base_Where" />
+		</where>
+	</delete>
+
+	<select id="count" parameterType="java.util.Map" resultType="int">
+		select count(1) from
+		<include refid="Table_Name" />
+		<where>
+			<include refid="Base_Where" />
+		</where>
+	</select>
+
+	<select id="selectOne" parameterType="com.ecej.uc.po.EmaillistPo" resultMap="BaseResultMap">
+	  <include refid="Base_Select" />
+	</select>
+
+	<select id="selectList"  parameterType="com.ecej.uc.po.EmaillistPo" resultMap="BaseResultMap">
+	    <include refid="Base_Select" />
+	</select>
+		
+
+     <select id="selectForUpdate" parameterType="com.ecej.uc.po.EmaillistPo" resultMap="BaseResultMap" useCache="false">
+		 <include refid="Base_Select" />
+		for update
+	</select>
+	
+
+</mapper>
