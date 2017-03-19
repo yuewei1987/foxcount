@@ -1,1 +1,1 @@
-web: java -jar catty-service/target/*.jar
+web: java $JAVA_OPTS -Dserver.port=$PORT -jar catty-service/target/*.jar
