@@ -49,38 +49,38 @@
 	</appender>
 
 
-	<appender name="FILE_ALL" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<File>${LOG_HOME}/${LOG_PREFIX}All.log</File>
-		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<FileNamePattern>${LOG_DIR}/${LOG_PREFIX}All%i.log</FileNamePattern>
-			<MaxHistory>${MAX_HISTORY}</MaxHistory>
-			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
-		        <maxFileSize>${MAX_FILE_SIZE}</maxFileSize>
-		    </timeBasedFileNamingAndTriggeringPolicy>
-		</rollingPolicy>
-		<layout class="ch.qos.logback.classic.PatternLayout">
-			<pattern>${LOG_MSG}</pattern>
-		</layout>
-	</appender>
+	<!--<appender name="FILE_ALL" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+		<!--<File>${LOG_HOME}/${LOG_PREFIX}All.log</File>-->
+		<!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+			<!--<FileNamePattern>${LOG_DIR}/${LOG_PREFIX}All%i.log</FileNamePattern>-->
+			<!--<MaxHistory>${MAX_HISTORY}</MaxHistory>-->
+			<!--<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">-->
+		        <!--<maxFileSize>${MAX_FILE_SIZE}</maxFileSize>-->
+		    <!--</timeBasedFileNamingAndTriggeringPolicy>-->
+		<!--</rollingPolicy>-->
+		<!--<layout class="ch.qos.logback.classic.PatternLayout">-->
+			<!--<pattern>${LOG_MSG}</pattern>-->
+		<!--</layout>-->
+	<!--</appender>-->
 
-    <appender name="FILE_ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
-           <filter class="ch.qos.logback.classic.filter.LevelFilter">
-               <level>ERROR</level>
-               <OnMismatch>DENY</OnMismatch>
-               <OnMatch>ACCEPT</OnMatch>
-           </filter>
-           <File>${LOG_HOME}/${LOG_PREFIX}Err.log</File>
-           <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-                   <FileNamePattern>${LOG_DIR}/${LOG_PREFIX}Err%i.log</FileNamePattern>
-                   <MaxHistory>${MAX_HISTORY}</MaxHistory>
-                   <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
-                   <maxFileSize>${MAX_FILE_SIZE}</maxFileSize>
-               </timeBasedFileNamingAndTriggeringPolicy>
-           </rollingPolicy>
-           <layout class="ch.qos.logback.classic.PatternLayout">
-                   <Pattern>${LOG_MSG}</Pattern>
-           </layout>
-    </appender>
+    <!--<appender name="FILE_ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+           <!--<filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+               <!--<level>ERROR</level>-->
+               <!--<OnMismatch>DENY</OnMismatch>-->
+               <!--<OnMatch>ACCEPT</OnMatch>-->
+           <!--</filter>-->
+           <!--<File>${LOG_HOME}/${LOG_PREFIX}Err.log</File>-->
+           <!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+                   <!--<FileNamePattern>${LOG_DIR}/${LOG_PREFIX}Err%i.log</FileNamePattern>-->
+                   <!--<MaxHistory>${MAX_HISTORY}</MaxHistory>-->
+                   <!--<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">-->
+                   <!--<maxFileSize>${MAX_FILE_SIZE}</maxFileSize>-->
+               <!--</timeBasedFileNamingAndTriggeringPolicy>-->
+           <!--</rollingPolicy>-->
+           <!--<layout class="ch.qos.logback.classic.PatternLayout">-->
+                   <!--<Pattern>${LOG_MSG}</Pattern>-->
+           <!--</layout>-->
+    <!--</appender>-->
 
 	<!-- additivity设为false,则logger内容不附加至root -->
 

@@ -328,9 +328,21 @@
       <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/logback-spring.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="98" column="37" lean-forward="false" selection-start-line="98" selection-start-column="37" selection-end-line="99" selection-end-column="45" />
-              <folding />
+            <state relative-caret-position="151">
+              <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+              <folding>
+                <marker date="1489939492000" expanded="true" signature="53:4637" ph="..." />
+                <marker date="1489939492000" expanded="true" signature="2058:2719" ph="..." />
+                <marker date="1489939492000" expanded="true" signature="2197:2577" ph="..." />
+                <marker date="1489939492000" expanded="true" signature="2435:2551" ph="..." />
+                <marker date="1489939492000" expanded="true" signature="2640:2699" ph="..." />
+                <marker date="1489939492000" expanded="true" signature="2816:3855" ph="..." />
+                <marker date="1489939492000" expanded="true" signature="2893:3064" ph="..." />
+                <marker date="1489939492000" expanded="true" signature="3221:3676" ph="..." />
+                <marker date="1489939492000" expanded="true" signature="3507:3641" ph="..." />
+                <marker date="1489939492000" expanded="true" signature="3748:3832" ph="..." />
+                <marker date="1489939492000" expanded="true" signature="4429:4619" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -433,7 +445,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Projects</find>
       <find>changeMain</find>
       <find>local</find>
       <find>modal-delete-expenses</find>
@@ -462,6 +473,7 @@
       <find>ecej-test</find>
       <find>localhost</find>
       <find>LOG_HOME</find>
+      <find>LOG_ROOT_LEVEL</find>
       <find>FILE_ALL</find>
     </findStrings>
     <replaceStrings>
@@ -742,7 +754,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="catty-service" />
+              <option name="myItemId" value="catty-service-api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -756,65 +768,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="catty-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catty-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catty-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catty-service" />
+              <option name="myItemId" value="catty-service-api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -826,7 +780,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1497,7 +1455,7 @@
       <workItem from="1489645117276" duration="20646000" />
       <workItem from="1489714076602" duration="15493000" />
       <workItem from="1489744416021" duration="5656000" />
-      <workItem from="1489893990076" duration="10499000" />
+      <workItem from="1489893990076" duration="10639000" />
     </task>
     <task id="LOCAL-00001" summary="Test框架部分提交">
       <created>1487125819032</created>
@@ -1586,7 +1544,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="460313000" />
+    <option name="totallyTimeSpent" value="460453000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1599,7 +1557,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1622,7 +1580,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3402626" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19284189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19284189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34463894" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2079,9 +2037,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="98" column="37" lean-forward="false" selection-start-line="98" selection-start-column="37" selection-end-line="99" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="151">
+          <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+          <folding>
+            <marker date="1489939492000" expanded="true" signature="53:4637" ph="..." />
+            <marker date="1489939492000" expanded="true" signature="2058:2719" ph="..." />
+            <marker date="1489939492000" expanded="true" signature="2197:2577" ph="..." />
+            <marker date="1489939492000" expanded="true" signature="2435:2551" ph="..." />
+            <marker date="1489939492000" expanded="true" signature="2640:2699" ph="..." />
+            <marker date="1489939492000" expanded="true" signature="2816:3855" ph="..." />
+            <marker date="1489939492000" expanded="true" signature="2893:3064" ph="..." />
+            <marker date="1489939492000" expanded="true" signature="3221:3676" ph="..." />
+            <marker date="1489939492000" expanded="true" signature="3507:3641" ph="..." />
+            <marker date="1489939492000" expanded="true" signature="3748:3832" ph="..." />
+            <marker date="1489939492000" expanded="true" signature="4429:4619" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
