@@ -1,0 +1,1 @@
+web:    java -jar catty-service-0.0.1-SNAPSHOT.jar
