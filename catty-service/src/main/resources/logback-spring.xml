@@ -96,8 +96,8 @@
         of a non-Raven logger that is set to a different logging threshold -->
 	<root level="${LOG_ROOT_LEVEL}">
 		<appender-ref ref="STDOUT" />
-		<appender-ref ref="FILE_ALL" />
-		<appender-ref ref="FILE_ERROR" />
+		<!--<appender-ref ref="FILE_ALL" />-->
+		<!--<appender-ref ref="FILE_ERROR" />-->
 		<appender-ref ref="Console" />
 		<appender-ref ref="Sentry" />
 	</root>
