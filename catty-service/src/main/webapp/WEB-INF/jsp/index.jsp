@@ -64,6 +64,9 @@
             "&response_type=code"+
             "&client_id=319757543751-bj4lvlrthqal00u80r3dqfqm0i61f5g1.apps.googleusercontent.com";
     }
+    var Main = {};
+    var Ctor = Vue.extend(Main)
+    var vm = new Ctor().$mount('#app')
 </script>
 <!-- Main JS -->
 <script src="js/script.js"></script>

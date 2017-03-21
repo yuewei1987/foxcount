@@ -59,8 +59,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+            <state relative-caret-position="433">
+              <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -89,8 +89,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/static/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="982" column="47" lean-forward="false" selection-start-line="982" selection-start-column="47" selection-end-line="982" selection-end-column="47" />
+            <state relative-caret-position="326">
+              <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -143,7 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>local</find>
       <find>modal-delete-expenses</find>
       <find>addExpensesData</find>
       <find>delInvoice</find>
@@ -173,6 +172,7 @@
       <find>delIn</find>
       <find>localhost</find>
       <find>http://test.yuewei.site</find>
+      <find>initPahg</find>
     </findStrings>
     <replaceStrings>
       <replace>com.ecej.uc.po.MarketPo</replace>
@@ -1157,7 +1157,7 @@
       <workItem from="1489645117276" duration="20646000" />
       <workItem from="1489714076602" duration="15493000" />
       <workItem from="1489744416021" duration="5656000" />
-      <workItem from="1489893990076" duration="20564000" />
+      <workItem from="1489893990076" duration="20860000" />
     </task>
     <task id="LOCAL-00001" summary="Test框架部分提交">
       <created>1487125819032</created>
@@ -1246,7 +1246,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="470378000" />
+    <option name="totallyTimeSpent" value="470674000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1694,14 +1694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/static/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="982" column="47" lean-forward="false" selection-start-line="982" selection-start-column="47" selection-end-line="982" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/config/DBConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1740,10 +1732,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/static/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        <state relative-caret-position="433">
+          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
           <folding />
         </state>
       </provider>
