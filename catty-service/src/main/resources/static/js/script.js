@@ -984,7 +984,7 @@ var Main = {
                     //TODO
                     var url = "https://accounts.google.com/o/oauth2/auth?" +
                         "scope=https://www.googleapis.com/auth/gmail.readonly%20https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile" +
-                        "&redirect_uri=http://test.yuewei.site/google/oauth2callback&response_type=code" +
+                        "&redirect_uri=https://fast-hamlet-34558.herokuapp.com/google/oauth2callback&response_type=code" +
                         "&client_id=319757543751-bj4lvlrthqal00u80r3dqfqm0i61f5g1.apps.googleusercontent.com" +
                         "&prompt=consent&access_type=offline" +
 //                            "&prompt=consent&access_type=offline" +

@@ -60,7 +60,7 @@
 <div style="position:absolute;left:40%;top:10%;transform:translate(-50% -50%);">
 <a href="https://accounts.google.com/o/oauth2/v2/auth?
 scope=https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile
-&redirect_uri=http://test.yuewei.site/google/login/oauth2callback
+&redirect_uri=https://fast-hamlet-34558.herokuapp.com/google/login/oauth2callback
 &response_type=code
 &client_id=319757543751-bj4lvlrthqal00u80r3dqfqm0i61f5g1.apps.googleusercontent.com"
    class="button button-pomegranate"><i class="fa fa-google"></i> Login By Google</a>

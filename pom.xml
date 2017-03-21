@@ -249,5 +249,64 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
         </profile>
+        <profile>
+            <id>release2</id>
+            <properties>
+                <catty.zookeeper.connect>localhost:2181</catty.zookeeper.connect>
+                <!-- <catty.zookeeper.connect>10.4.89.152:2181,10.4.89.153:2181,10.4.89.154:2181</catty.zookeeper.connect> -->
+
+                <!-- dubbo -->
+                <catty.dubbo.provider.timeout>10000</catty.dubbo.provider.timeout>
+                <catty.dubbo.provider.retries>0</catty.dubbo.provider.retries>
+                <catty.dubbo.provider.version>1.0</catty.dubbo.provider.version>
+                <catty.dubbo.provider.connections>5</catty.dubbo.provider.connections>
+                <catty.dubbo.protocol.threadpool>fixed</catty.dubbo.protocol.threadpool>
+                <catty.dubbo.protocol.threads>500</catty.dubbo.protocol.threads>
+
+                <!-- dubbo cache file path -->
+                <catty.dubbo.cache.path.base>/data/dubbo/cache/base.cache</catty.dubbo.cache.path.base>
+
+                <!-- redis -->
+                <catty.redis.cluster>10.4.89.161:6379</catty.redis.cluster>
+                <catty.redis.pool.maxTotal>1000</catty.redis.pool.maxTotal>
+                <catty.redis.pool.maxIdle>10</catty.redis.pool.maxIdle>
+                <catty.redis.pool.maxWaitMillis>3000</catty.redis.pool.maxWaitMillis>
+                <catty.redis.timeOut>5000</catty.redis.timeOut>
+                <catty.redis.maxRedirections>10</catty.redis.maxRedirections>
+
+
+                <!-- druid config -->
+                <catty.druid.initialSize>0</catty.druid.initialSize>
+                <catty.druid.maxActive>500</catty.druid.maxActive>
+                <catty.druid.minIdle>50</catty.druid.minIdle>
+                <catty.druid.maxWait>60000</catty.druid.maxWait>
+                <catty.druid.removeAbandoned>true</catty.druid.removeAbandoned>
+                <catty.druid.removeAbandonedTimeout>180</catty.druid.removeAbandonedTimeout>
+                <catty.druid.timeBetweenEvictionRunsMillis>60000</catty.druid.timeBetweenEvictionRunsMillis>
+                <catty.druid.minEvictableIdleTimeMillis>3600000</catty.druid.minEvictableIdleTimeMillis>
+                <catty.druid.validationQuery>SELECT USER()</catty.druid.validationQuery>
+                <catty.druid.testWhileIdle>true</catty.druid.testWhileIdle>
+                <catty.druid.testOnBorrow>false</catty.druid.testOnBorrow>
+                <catty.druid.testOnReturn>false</catty.druid.testOnReturn>
+                <catty.druid.filters>mergeStat,config</catty.druid.filters>
+                <catty.druid.connectionProperties>config.decrypt=false</catty.druid.connectionProperties>
+
+                <!--  base -->
+                <catty.base.datasource.url>jdbc:mysql://67.205.140.192:3306/catty?useunicode=true&amp;characterencoding=utf-8</catty.base.datasource.url>
+                <catty.base.datasource.username>root</catty.base.datasource.username>
+                <catty.base.datasource.password>1qazxsw@</catty.base.datasource.password>
+                <!-- google api-->
+                <catty.google.client_id>319757543751-bj4lvlrthqal00u80r3dqfqm0i61f5g1.apps.googleusercontent.com
+                </catty.google.client_id>
+                <catty.google.client_secret>1pFcTBlCK1HeCBiBLYLgZ0-m</catty.google.client_secret>
+                <catty.google.auth_uri>https://accounts.google.com/o/oauth2/auth</catty.google.auth_uri>
+                <catty.google.redirect_uris>https://fast-hamlet-34558.herokuapp.com/google/login/oauth2callback
+                </catty.google.redirect_uris>
+                <catty.google.redirect_uris2>https://fast-hamlet-34558.herokuapp.com/google/oauth2callback</catty.google.redirect_uris2>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
 	</profiles>
 </project>
