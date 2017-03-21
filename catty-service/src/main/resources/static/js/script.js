@@ -416,8 +416,6 @@ var Main = {
                 addExpensesData4=  addExpensesData3.filter(function (invoicesData) {
                     return (invoicesData.title == servicename)
                 });
-                console.log("DEBUG:");
-                console.dir(vm.$data.tempinvoicesData);
                 for (var i = 0; i < pagesize; i++) {
                     if (typeof(addExpensesData4[(page - 1) * pagesize + i]) == "undefined") {
                         break;
@@ -821,10 +819,8 @@ var Main = {
                     type: 'success'
                 });
             });
-            console.dir( vm.$data.invoicesData);
             vm.$data.invoicesData.push(invoicesDataT);
             vm.$data.viewExpensesData.push(invoicesDataT);
-            console.dir( vm.$data.invoicesData);
             vm.initChangePage2();
 
             vm.$data.loading = false;

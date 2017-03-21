@@ -346,21 +346,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/static/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="758" column="33" lean-forward="false" selection-start-line="758" selection-start-column="33" selection-end-line="758" selection-end-column="33" />
+            <state relative-caret-position="335">
+              <caret line="1086" column="31" lean-forward="true" selection-start-line="1086" selection-start-column="31" selection-end-line="1086" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExpenseServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExpenseServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/service/impl/ExpenseServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="155">
+              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -433,7 +433,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>handleCurrentInvoiceChange</find>
       <find>fil</find>
       <find>modal-edit-added-expenses</find>
       <find>open-modal-edit-added-expenses</find>
@@ -463,6 +462,7 @@
       <find>initChangePage</find>
       <find>changeInvoicePage</find>
       <find>tempinvoicesData</find>
+      <find>console.</find>
     </findStrings>
     <replaceStrings>
       <replace>MarketlistingPo</replace>
@@ -1547,7 +1547,7 @@
       <workItem from="1489645117276" duration="20646000" />
       <workItem from="1489714076602" duration="15493000" />
       <workItem from="1489744416021" duration="5656000" />
-      <workItem from="1489893990076" duration="25858000" />
+      <workItem from="1489893990076" duration="26065000" />
     </task>
     <task id="LOCAL-00001" summary="Test框架部分提交">
       <created>1487125819032</created>
@@ -1636,7 +1636,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="475672000" />
+    <option name="totallyTimeSpent" value="475879000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2122,18 +2122,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/static/js/script.js">
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/service/impl/ExpenseServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="758" column="33" lean-forward="false" selection-start-line="758" selection-start-column="33" selection-end-line="758" selection-end-column="33" />
+        <state relative-caret-position="155">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catty-service/src/main/java/com/ecej/uc/service/impl/ExpenseServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/static/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="335">
+          <caret line="1086" column="31" lean-forward="true" selection-start-line="1086" selection-start-column="31" selection-end-line="1086" selection-end-column="31" />
           <folding />
         </state>
       </provider>
