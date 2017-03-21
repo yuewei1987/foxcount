@@ -377,7 +377,6 @@ var Main = {
             vm.changeViewExpensesPage();
         },
         changePage: function () {
-            console.dir(vm.$data.newTempExpensesData);
             var page = vm.$data.newExpensesDataPageNum;
             var pagesize = vm.$data.newExpensesDataPageSize;
             var addExpensesData1 = vm.$data.newTempExpensesData;
@@ -410,23 +409,40 @@ var Main = {
             var page = vm.$data.invoicesDataPageNum;
             var pagesize = vm.$data.invoicesDataPageSize;
             var addExpensesData3 = vm.$data.tempinvoicesData;
+            var addExpensesData4 =[];
             var newAddExpensesData = [];
             var servicename = vm.$data.currentAdd.servicename;
-            addExpensesData3=  addExpensesData3.filter(function (invoicesData) {
-                return (invoicesData.title == servicename)
-            });
-            for (var i = 0; i < pagesize; i++) {
-                if (typeof(addExpensesData3[(page - 1) * pagesize + i]) == "undefined") {
-                    break;
+            if(servicename != null &&servicename!=""&&typeof(servicename)!="undefined"){
+                addExpensesData4=  addExpensesData3.filter(function (invoicesData) {
+                    return (invoicesData.title == servicename)
+                });
+                console.log("DEBUG:");
+                console.dir(vm.$data.tempinvoicesData);
+                for (var i = 0; i < pagesize; i++) {
+                    if (typeof(addExpensesData4[(page - 1) * pagesize + i]) == "undefined") {
+                        break;
+                    }
+                    newAddExpensesData.push(addExpensesData4[(page - 1) * pagesize + i]);
                 }
-                newAddExpensesData.push(addExpensesData3[(page - 1) * pagesize + i]);
+                vm.$data.invoicesData = newAddExpensesData;
+            }else{
+                for (var i = 0; i < pagesize; i++) {
+                    if (typeof(addExpensesData3[(page - 1) * pagesize + i]) == "undefined") {
+                        break;
+                    }
+                    newAddExpensesData.push(addExpensesData3[(page - 1) * pagesize + i]);
+                }
+                vm.$data.invoicesData = newAddExpensesData;
             }
-            vm.$data.invoicesData = newAddExpensesData;
+
+
+
         }, changeViewExpensesPage: function () {
 
             var page = vm.$data.viewExpensesPageNum;
             var pagesize = vm.$data.viewExpensesPageSize;
             var addExpensesData4 = vm.$data.tempviewExpensesData;
+            var addExpensesData5 = [];
             var newAddExpensesData = [];
             for (var i = 0; i < pagesize; i++) {
                 if (typeof(addExpensesData4[(page - 1) * pagesize + i]) == "undefined") {
@@ -740,6 +756,7 @@ var Main = {
 
             // let it fast!
 //                        vm.loadExpenses();
+            vm.$data.invoicesData = vm.$data.tempinvoicesData;
             var invoicesDataT = {};
             for (var newnum = 0; newnum < vm.$data.newExpensesData.length; newnum++) {
                 if (vm.$data.newExpensesData[newnum].eid == eid) {
@@ -804,9 +821,12 @@ var Main = {
                     type: 'success'
                 });
             });
-            vm.initChangePage2();
+            console.dir( vm.$data.invoicesData);
             vm.$data.invoicesData.push(invoicesDataT);
             vm.$data.viewExpensesData.push(invoicesDataT);
+            console.dir( vm.$data.invoicesData);
+            vm.initChangePage2();
+
             vm.$data.loading = false;
             $.ajax({
                 url: "/expense/updateStatus",
@@ -948,7 +968,6 @@ var Main = {
 
                 vm.$data.addTempExpensesData = vm.$data.addExpensesData;
                 vm.$data.addTempSearchExpensesData = vm.$data.addTempExpensesData;
-
                 vm.$data.tempinvoicesData = vm.$data.invoicesData;
                 vm.$data.tempviewExpensesData = vm.$data.viewExpensesData;
                 vm.changePage();
@@ -958,10 +977,8 @@ var Main = {
             });
         }, initChangePage2: function () {
             vm.$nextTick(function () {
-
                 vm.$data.addTempExpensesData = vm.$data.addExpensesData;
                 vm.$data.addTempSearchExpensesData = vm.$data.addTempExpensesData;
-
                 vm.$data.tempinvoicesData = vm.$data.invoicesData;
                 vm.$data.tempviewExpensesData = vm.$data.viewExpensesData;
                 vm.changePage();
@@ -978,13 +995,12 @@ var Main = {
             vm.$data.appLoading = false;
         },
         mailchange:function(){
-            console.dir(vm.$data.gmailvalue);
             vm.$nextTick(function () {
                 if (vm.$data.gmailvalue == 0) {
                     //TODO
                     var url = "https://accounts.google.com/o/oauth2/auth?" +
                         "scope=https://www.googleapis.com/auth/gmail.readonly%20https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile" +
-                        "&redirect_uri=https://fast-hamlet-34558.herokuapp.com/google/oauth2callback&response_type=code" +
+                        "&redirect_uri=http://localhost:8080/google/oauth2callback&response_type=code" +
                         "&client_id=319757543751-bj4lvlrthqal00u80r3dqfqm0i61f5g1.apps.googleusercontent.com" +
                         "&prompt=consent&access_type=offline" +
 //                            "&prompt=consent&access_type=offline" +
@@ -1140,7 +1156,6 @@ var Main = {
 
         },
         handleCommand(command) {
-            alert(command);
             if (command == "edit")
                 $('#modal-edit-expenses').modal();
             vm.$data.inputService = obj.title;
