@@ -537,10 +537,10 @@ a:focus {
 
 /* .top-area */
 .top-area {
-    padding: 16px 40px 10px 40px;
+	padding: 16px 40px 10px 40px;
 	border-bottom: 1px solid #e1e8ed;
 	background-color: #fff;
-    min-height: 70px;
+	min-height: 70px;
 }
 	.top-area .left-area,
 	.color-point-block {
@@ -588,7 +588,7 @@ a:focus {
 	/* .top-area .two-btn */			
 	.top-area .two-btn {
 		float: right;
-        margin-top: 1px;
+		margin-top: 1px;
 	}	
 		.top-area .two-btn .link-add-expenses {
 			border-radius: 4px;
@@ -624,33 +624,31 @@ a:focus {
 			display: inline-block;
 		}
 
-.top-area .blue-block {
-    width: 40px;
-    height: 40px;
-    background: url(../i/header-left-icon.svg), linear-gradient(180deg, #20a0ff, #1d8bea);
-    border-radius: 7px;
-    background-repeat: no-repeat;
-    background-size: 30px, auto;
-    background-position: center center;
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: -2px;
-}
-
-.top-area .link {
-    color: #7f8fa4;
-    font-size: 16px;
-    margin-left: 20px;
-    padding: 10px 0px;
-    display: inline-block;
-    vertical-align: middle;
-    font-weight: 400;
-}
-
-.top-area .link:hover {
-    opacity: 0.75;
-    text-decoration: none;
-}
+	.top-area .blue-block {
+	    width: 40px;
+    	height: 40px;
+    	background: url(../i/header-left-icon.svg), linear-gradient(180deg, #20a0ff, #1d8bea);
+    	border-radius: 7px;
+    	background-repeat: no-repeat;
+		background-size: 30px, auto;
+		background-position: center center;
+		display: inline-block;
+		vertical-align: middle;
+	    margin-top: -2px;
+	}
+		.top-area .link {
+		    color: #7f8fa4;
+   			font-size: 16px;
+			margin-left: 20px;
+    		padding: 10px 0px;
+    		display: inline-block;
+    		vertical-align: middle;
+    		font-weight: 400;
+		}
+			.top-area .link:hover {
+				opacity: 0.75;
+				text-decoration: none;
+			}
 
 .contents {
 	padding: 40px;
@@ -855,7 +853,6 @@ a:focus {
     cursor: pointer;
     min-height: 46px;
 }
-
 .list-item.white-color {
     background-color: #fff;
     border-bottom: 1px solid #e1e8ed;
@@ -864,7 +861,6 @@ a:focus {
 .list-item:hover {
     box-shadow: inset 5px 0 0 0 #1d8bea;
 }
-
 .list-item.white-color:hover {
     box-shadow: none;
 }
@@ -1018,7 +1014,7 @@ a:focus {
         padding: 5px 11px;
 	    font-size: 15px;
 	    display: inline-block;
-        border: 1px solid transparent;
+	    border: 1px solid transparent;
         border-radius: 4px;
 	}
 		.aside .nav-bar .nav-item:hover {
@@ -1028,7 +1024,7 @@ a:focus {
 		.aside .nav-bar .nav-item.active {
 		    color: #333;
 		    font-weight: 500;
-            border-color: #bfcbd9;
+	        border-color: #bfcbd9;
 		}
 		/* .aside .nav-bar .nav-bar-right */
 		.aside .nav-bar .nav-bar-right {
@@ -1050,7 +1046,7 @@ a:focus {
 		    padding: 13px 15px;
 		    border-top: 1px solid #e1e8ed;
 		    background-color: #fff;
-            z-index: 200;
+		    z-index : 200;
 		}
 			.aside .bottom-bar .btn-red {
 				position: relative;
@@ -1070,14 +1066,13 @@ a:focus {
 				margin-right: 10px;
 			}
 				.aside .bottom-bar .right-area {
-                    position: absolute;
-                    right: -31px;
-                    top: 18px;
-                    width: 144px;
-                }
-
-.aside .bottom-bar .right-area .el-progress__text {
-    display: none;
+				    position: absolute;
+				    right: -31px;
+				    top: 18px;
+				    width: 144px;
+				}
+				.aside .bottom-bar .right-area .el-progress__text {
+					display: none;
 				}
 					.aside .bottom-bar .right-area .btn-circle-border {
 						margin-left: 10px;
@@ -1159,15 +1154,15 @@ a:focus {
 			padding: 10px 15px;
 		}
 
-.list-item.list-item-info .add-btn .el-icon-caret-bottom::before {
-    margin-top: 5px;
-    padding-bottom: 2px;
-}
+		.list-item.list-item-info .add-btn .el-icon-caret-bottom::before {
+			margin-top: 5px;
+			padding-bottom: 2px;
+		}
 
 
 /* .edit-aside */
 .edit-aside {
-    z-index: 2010;
+	z-index: 2010;
 }
 .edit-aside .left-area .txt-area {
 	padding-right: 95px;
@@ -1385,28 +1380,28 @@ a:focus {
 				.form .btn-boxs .btn-submit-project,
 				.form .btn-boxs .btn-create-project,
 				.form .btn-boxs .btn-update-expense {
-                    float: right;
+					float: right;
 				}
 
-/* .table-data */
+			
+		/* .table-data */
 		.table-data {
 			overflow: auto;
-            height: 729px;
-            background-color: #f9fafc;
-            position: relative;
-            margin-bottom: 53px;
-        }
-
-.table-data .gray-cover {
-    height: 100%;
-    width: 100%;
-    background: #f9fafc;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    border-top: 1px solid #e1e8ed;
-}
+			height: 729px;
+		    background-color: #f9fafc;
+		    position: relative;
+		    margin-bottom: 53px;
+		}	
+		.table-data .gray-cover {
+			height: 100%;
+			width: 100%;
+			background: #f9fafc;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 100;
+			border-top: 1px solid #e1e8ed;
+		}
 		.table-data .el-table .cell {
 			padding: 0!important;
 		}
@@ -1418,24 +1413,20 @@ a:focus {
 		}
 		.table-data.sub-data {
 			height: 800px;
-        }
-
-.table-data .btn-more {
-    float: right;
-    margin: 20px 37px 0 0;
-}
-
-.el-dropdown-menu {
-    min-width: 0;
-}
-
-.news-expenses .el-table {
-    background-color: #f9fafc;
-}
-
-.el-button--small {
-    height: 28px;
-}
+		}  
+			.table-data .btn-more {
+				float: right;
+				margin: 20px 37px 0 0;
+			}
+			.el-dropdown-menu{
+			  min-width: 0;
+			}
+			.news-expenses .el-table {
+			  background-color: #f9fafc;
+			}
+			.el-button--small {
+			  height: 28px;
+			}
 			
 /* .modal.modal-default */
 .modal-backdrop.in {
@@ -1447,10 +1438,10 @@ a:focus {
 }
 .modal-default .modal-dialog {
 	position: absolute;
-    margin-left: -400px;
+	margin-left: -400px;
 	top: 22%;
 	left: 50%;
-    width: 800px;
+	width: 800px;
    
 }
     /* .modal-default .modal-content */
@@ -1505,18 +1496,17 @@ a:focus {
 	}
 		.modal.modal-account .left-area .left-title {
 		    font-size: 16px;
-            color: #7993aa;
+			color: #7993aa;
     		font-weight: 500;
 			margin-right: 12px;
 			padding: 12px 0 10px 2px;
-            display: block;
+			display: block;
 		}
-
-.modal.modal-account .left-area .left-title.current,
+			.modal.modal-account .left-area .left-title.current,
 			.modal.modal-account .left-area .left-title:hover {
 				text-decoration: none;
-    color: #333;
-    font-weight: 600;
+				color: #333;
+				font-weight: 600;
 			}
 		.btn-icon-close {
 			background: url(../i/icon-close.png) no-repeat;
@@ -1546,35 +1536,32 @@ a:focus {
 				.modal.modal-account .right-content .row {
 					margin: 0;
 				}
-
-.modal.modal-account .right-content.right-second-content {
-    padding-top: 20px;
-}
+					.modal.modal-account .right-content.right-second-content {
+						padding-top: 20px;
+					}
 					.modal.modal-account .color-point-block .color-point {
 				    	display: inline-block;
 						float: none;
 					    position: relative;
-                        background-color: #b3b3b3;
+					    background-color: #b3b3b3;
 					    margin: 0 10px 0 0;
 					    top: 7px;
-                        width: 25px;
-                        height: 25px;
-                        line-height: 25px;
+				        width: 25px;
+    					height: 25px;
+    					line-height: 25px;
 				    }
 				.modal.modal-account .right-content .email-address {
 				    display: inline-block;
-                }
-
-.modal.modal-account .right-content .email-address .name {
-    display: inline-block;
-    color: #333;
-    font-weight: 500;
-}
-
-.modal.modal-account .right-content .email-address .email {
-    display: block;
-    color: #7993aa;
-}
+				}
+					.modal.modal-account .right-content .email-address .name {
+						display: inline-block;
+					    color: #333;
+					    font-weight: 500;
+					}
+					.modal.modal-account .right-content .email-address .email {
+						display: block;
+				        color: #7993aa;
+					}
 					.modal.modal-account .right-content .btn-grey-border {
 						float: right;
 						margin: 10px -2px 0 0;
@@ -1593,31 +1580,28 @@ a:focus {
 					    text-transform: none;
 					}
 				.modal.modal-account .right-content .receive-row {
-                    padding: 12px 15px;
-                    border: 1px solid #e1e8ed;
+				    padding: 12px 15px;
+					border: 1px solid #e1e8ed;
 				    background-color: #fff;
 				    font-size: 15px;
-                    border-radius: 4px;
+			        border-radius: 4px;
 				    position: relative;
 				}
 					.modal.modal-account .right-content .receive-row .switch-small {
 						float: right;
 					}
-
-.modal.modal-account .right-content .receive-row.email-row:nth-child(2) {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
-.modal.modal-account .right-content .receive-row.email-row:nth-child(3) {
-    border-radius: 0;
-    margin: -1px 0;
-}
-
-.modal.modal-account .right-content .receive-row.email-row:last-child {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
+				.modal.modal-account .right-content .receive-row.email-row:nth-child(2){
+				    border-bottom-left-radius: 0;
+    				border-bottom-right-radius: 0;
+				}	
+				.modal.modal-account .right-content .receive-row.email-row:nth-child(3) {
+				    border-radius: 0;
+				    margin: -1px 0;
+				}	
+				.modal.modal-account .right-content .receive-row.email-row:last-child {
+				    border-top-left-radius: 0;
+    				border-top-right-radius: 0;
+				}	
 				.modal.modal-account .right-content .long-line {
 					width: 100%;
 					height: 1px;
@@ -1626,9 +1610,9 @@ a:focus {
 				.modal.modal-account .right-content .btn-save {
 					float: right;
 					margin-top: 25px;
-                    position: absolute;
-                    bottom: 20px;
-                    right: 20px;
+					position: absolute;
+					bottom: 20px;
+					right: 20px;
 				}
 				.modal.modal-account .right-content .receive-row.email-row {
 					min-height: 50px;
@@ -1646,7 +1630,7 @@ a:focus {
 					    border-radius: 100%;
 					    background-color: #fff;
 					    position: absolute;
-                        right: 15px;
+					    right: 15px;
 					    top: 50%;
 					    margin-top: -16px;
 					}
@@ -1735,11 +1719,11 @@ a:focus {
 	/* .modal-info-bounced */
 	.modal.modal-info-bounced .modal-dialog {
 		top: 50%;
-        margin-top: -250px;
-        width: 800px;
+		margin-top: -250px;
+		width: 800px;
 	}
 	.modal.modal-info-bounced .modal-content {
-        height: 500px;
+		height: 500px;
 	}
 		.modal.modal-info-bounced .heading {
 		    margin-bottom: -1px;
@@ -1773,74 +1757,188 @@ a:focus {
 			color: #333;
 			font-weight: 400;
 		}
+	
 
-/* .modal-info-bounced */
-.modal.modal-add-expenses .modal-dialog {
-    top: 50%;
-    margin-top: -250px;
-    width: 800px;
-}
 
-.modal.modal-add-expenses .modal-content {
-    height: 500px;
-}
+		/* .modal-info-bounced */
+	.modal.modal-add-expenses .modal-dialog {
+		top: 50%;
+		margin-top: -250px;
+		width: 800px;
+	}
+	.modal.modal-add-expenses .modal-content {
+		height: 500px;
+	}
+		.modal.modal-add-expenses .heading {
+		    margin-bottom: -1px;
+		    padding: 12px 15px;
+		    border-bottom: 1px solid #e1e8ed;
+		    background-color: #fff;
+		    position: relative;
+		}	
+			.modal.modal-add-expenses .heading .title {
+				font-size: 18px;
+			    line-height: 24px;
+			    font-weight: 400;
+			}
+			.modal.modal-add-expenses .heading .btn-icon-close {
+				top: 50%;
+				right: 12px;
+				margin-top: -12px;
+			}
+			.modal.modal-add-expenses .heading .btn-bg-txt {
+			    display: inline-block;
+			    margin-top: 4px;
+			    padding: 2px;
+			    border: 1px none #e1e8ed;
+		        color: grey;
+			    font-size: 14px;
+			    text-align: center;
+			}
+		.modal.modal-add-expenses .content-boxs {
+			padding: 17px 20px;
+			font-size: 15px;
+			color: #333;
+			font-weight: 400;
+		}
+			.modal.modal-add-expenses .update-form {
+			    position: absolute;
+			    left: 0px;
+			    right: 0px;
+			    bottom: 0px;
+			    padding: 20px 15px 20px 15px;
+			    border-top: 1px solid #e8e8e8;
+			    background-color: #fff;
+			}
+				.modal.modal-add-expenses .update-form .text {
+					color: #7993aa;
+				    font-size: 15px;
+				    font-weight: 400;
+				    text-transform: none;
+				    margin-bottom: 10px;
+				    display: block;
+				}
+					.modal.modal-add-expenses .update-form .el-button--primary {
+						margin: 29px 0 0 15px;
+					}
 
-.modal.modal-add-expenses .heading {
-    margin-bottom: -1px;
-    padding: 12px 15px;
-    border-bottom: 1px solid #e1e8ed;
-    background-color: #fff;
+/* .grey-bgimg */
+.grey-bgimg {
     position: relative;
+    overflow: hidden;
+    min-height: 100%;
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .73), rgba(0, 0, 0, .73)), url(../i/grey-bgimg.jpg), -webkit-linear-gradient(270deg, #000, #000);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .73), rgba(0, 0, 0, .73)), url(../i/grey-bgimg.jpg), linear-gradient(180deg, #000, #000);
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+    background-size: auto, cover, auto;
+    background-repeat: repeat, no-repeat, repeat;
 }
+	.nav-header {
+	    height: auto;
+	    padding: 36px 60px;
+	    background-color: transparent;
+	    
+	}
+		.nav-bar {
+			color: #fff;
+		}
+			.nav-bar:hover {
+				color: #fff;
+				text-decoration: none;
+				opacity: 0.85;
+			}
+			.nav-bar img {
+				width: 37px;
+				height: 37px;
+				margin-right: 6px; 
+				display: inline-block;
+				vertical-align: middle;
+			}
+			.nav-bar .title {
+			    color: #fff;
+			    font-size: 22px;
+		        font-weight: 400;
+    			letter-spacing: 1px;
+			    line-height: 24px;
+			    text-transform: none;
+			    display: inline-block;
+			    vertical-align: middle;
+			}
 
-.modal.modal-add-expenses .heading .title {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 400;
-}
 
-.modal.modal-add-expenses .heading .btn-icon-close {
-    top: 50%;
-    right: 12px;
-    margin-top: -12px;
-}
+	/* .main-side */
+	.main-side {
+		margin-top: 75px;
+	    margin-bottom: 75px;
+	    padding-right: 60px;
+	    padding-left: 60px;
+	}
+		.main-side .txt-area {
+			position: relative;
+		}
+			.main-side .txt-area .title {
+			    margin-bottom: 20px;
+			    font-size: 40px;
+			    line-height: 52px;
+			    font-weight: 300;
+		        margin-top: 0px;
+	            color: #fff;
+			}
+			.main-side .txt-area p {
+			    margin-bottom: 50px;
+			    color: hsla(0, 0%, 100%, .78);
+			    font-size: 25px;
+			    font-weight: 300;
+			    line-height: 43px;
+			}
+			.main-side .txt-area p .block {
+				display: block;
+			}
 
-.modal.modal-add-expenses .heading .btn-bg-txt {
-    display: inline-block;
-    margin-top: 4px;
-    padding: 2px;
-    border: 1px none #e1e8ed;
-    color: grey;
-    font-size: 14px;
-    text-align: center;
-}
+	/* .sign-button */
+	.sign-button .icon-g {
+		background: url(../i/white-icon-g.png) no-repeat;
+		width: 13px;
+		height: 14px;
+	    margin-right: 5px;
+	    margin-left: 0px;
+	    margin-top: 0;
+	    float: left;
+	}
+	/* .link-list */
+	.link-list li {
+		float: left;
+	}
+	.link-list li a {
+	    margin-top: 45px;
+	    margin-right: 15px;
+	    color: #fff;
+	    font-size: 12px;
+	    display: inline-block;
+        font-weight: 400;
+    	text-decoration: none;
+	}
+		.link-list li a:hover {
+			opacity: 0.8;
+		}
 
-.modal.modal-add-expenses .content-boxs {
-    padding: 17px 20px;
-    font-size: 15px;
-    color: #333;
-    font-weight: 400;
-}
 
-.modal.modal-add-expenses .update-form {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    padding: 20px 15px 20px 15px;
-    border-top: 1px solid #e8e8e8;
-    background-color: #fff;
-}
-
-.modal.modal-add-expenses .update-form .text {
-    color: #7993aa;
-    font-size: 15px;
-    font-weight: 400;
-    text-transform: none;
-    margin-bottom: 10px;
-    display: block;
-}
-
-.modal.modal-add-expenses .update-form .el-button--primary {
-    margin: 29px 0 0 15px;
-}
+	/* .home-show-pic */
+	.home-show-pic {
+	    position: absolute;
+	    top: 0px;
+	    right: 0px;
+	    margin-top: 56px;
+	    margin-right: -347px;
+	    padding: 0px;
+	    -webkit-transform: none;
+	    -ms-transform: none;
+	    transform: none;
+	}
+		.home-show-pic img {
+			border-radius: 3px;
+			max-width: 100%;
+		    vertical-align: middle;
+		    display: inline-block;
+		    width: 955px;
+		}
