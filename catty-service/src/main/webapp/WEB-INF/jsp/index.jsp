@@ -54,7 +54,7 @@
 <!-- jQuery library -->
 <script src="js/jquery-3.1.0.min.js"></script>
 <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-<script src="node_modules/vue/dist/vue.js"></script>
+<script src="//unpkg.com/vue"></script>
 <script src="node_modules/element-ui/lib/index.js"></script>
 <script>
     function toHref(){
