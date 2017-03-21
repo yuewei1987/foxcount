@@ -292,9 +292,9 @@
                 <catty.druid.connectionProperties>config.decrypt=false</catty.druid.connectionProperties>
 
                 <!--  base -->
-                <catty.base.datasource.url>jdbc:mysql://67.205.140.192:3306/catty?useunicode=true&amp;characterencoding=utf-8</catty.base.datasource.url>
-                <catty.base.datasource.username>root</catty.base.datasource.username>
-                <catty.base.datasource.password>1qazxsw@</catty.base.datasource.password>
+                <catty.base.datasource.url>jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/heroku_d60b62ef695d1d9?useunicode=true&amp;characterencoding=utf-8</catty.base.datasource.url>
+                <catty.base.datasource.username>b7afbf0b4a4a2e</catty.base.datasource.username>
+                <catty.base.datasource.password>f0badb68</catty.base.datasource.password>
                 <!-- google api-->
                 <catty.google.client_id>319757543751-bj4lvlrthqal00u80r3dqfqm0i61f5g1.apps.googleusercontent.com
                 </catty.google.client_id>
