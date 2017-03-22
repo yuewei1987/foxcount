@@ -41,6 +41,21 @@ public class ExpenseController {
     @ResponseBody
     public ResultModel<?> update(@RequestBody ExpensePo po, HttpSession session) {
         ResultModel rm = new ResultModel();
+        if(po.getServicename().toLowerCase().contains(".com")){
+            String serviceName =  po.getServicename();
+            serviceName =  serviceName.replaceAll(".com","");
+            serviceName =  serviceName.replaceAll(".coM","");
+            serviceName =  serviceName.replaceAll(".cOM","");
+            serviceName =  serviceName.replaceAll(".Com","");
+            serviceName =  serviceName.replaceAll(".COm","");
+            serviceName =  serviceName.replaceAll(".COM","");
+            po.setServicename(serviceName);
+        }
+        if(!po.getServiceurl().toLowerCase().contains(".com")){
+            String serviceUrL =  po.getServiceurl();
+            po.setServiceurl(serviceUrL+".com");
+
+        }
         rm = ExpenseService.updateExpense(po);
         return rm;
     }
@@ -67,6 +82,31 @@ public class ExpenseController {
     @ResponseBody
     public ResultModel<?> updateCata(@RequestBody ExpensePo po, HttpSession session) {
         ResultModel rm = new ResultModel();
+        if(po.getServicename().toLowerCase().contains(".com")){
+            String serviceName =  po.getServicename();
+            serviceName =  serviceName.replaceAll(".com","");
+             serviceName =  serviceName.replaceAll(".coM","");
+             serviceName =  serviceName.replaceAll(".cOM","");
+             serviceName =  serviceName.replaceAll(".Com","");
+             serviceName =  serviceName.replaceAll(".COm","");
+             serviceName =  serviceName.replaceAll(".COM","");
+             po.setServicename(serviceName);
+
+        }
+        if(!po.getServiceurl().toLowerCase().contains(".com")){
+            String serviceUrL =  po.getServiceurl();
+            po.setServiceurl(serviceUrL+".com");
+            po.setMailSubject(serviceUrL);
+        }else{
+            String serviceName =  po.getServiceurl();
+            serviceName =  serviceName.replaceAll(".com","");
+            serviceName =  serviceName.replaceAll(".coM","");
+            serviceName =  serviceName.replaceAll(".cOM","");
+            serviceName =  serviceName.replaceAll(".Com","");
+            serviceName =  serviceName.replaceAll(".COm","");
+            serviceName =  serviceName.replaceAll(".COM","");
+            po.setMailSubject(serviceName);
+        }
         rm = ExpenseService.updateExpenseBat(po);
         return rm;
     }

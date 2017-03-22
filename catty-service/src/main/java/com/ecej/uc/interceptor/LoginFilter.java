@@ -31,6 +31,7 @@ public class LoginFilter extends HttpServlet implements Filter {
                 requestName.startsWith("oauth2callback") ||
                 requestName.startsWith("importemail") ||
                 requestName.matches(".*\\.js$") ||
+                requestName.matches(".*\\.ico$") ||
                 requestName.matches(".*\\.css$") ||
                 requestName.matches(".*\\.gif$") ||
                 requestName.matches(".*\\.jpg$") ||

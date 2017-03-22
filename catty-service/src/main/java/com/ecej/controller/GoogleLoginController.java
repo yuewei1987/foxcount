@@ -132,10 +132,22 @@ public class GoogleLoginController {
 			ProjectPo pp = new ProjectPo();
 			pp.setUid(up.getUid());
 			List<ProjectPo> newpp = projectService.selectList(pp);
+			//new regist.
 			if(newpp.size()==0){
 				pp.setCurrency("1");
 				pp.setProjectname("Project 1");
 				projectService.addProject(pp);
+				EmaillistPo ep = new EmaillistPo();
+				ep.setUid(up.getUid());
+				ep.setPid(pp.getPid());
+				ep.setEmailaddress(data.getEmail());
+				EmaillistPo newep = emaillistService.selectById(ep);
+				if (newep == null) {
+					ep.setRefreshtoken(refrshToken);
+					ep.setAccesstoken(s);
+					ep.setGid(data.getId());
+					emaillistService.addEmaillist(ep);
+				}
 			}
 			session.setAttribute("globalUserId", String.valueOf(up.getUid()));
 			session.setAttribute("globalUserAccount", String.valueOf(up.getEmail()));

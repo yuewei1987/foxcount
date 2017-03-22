@@ -21,7 +21,7 @@
 		<set>
 			<if test="serviceurl != null">
 				serviceurl=#{serviceurl},
-				servicename=#{serviceurl}
+				servicename=#{mailSubject}
 			</if>
 
 		</set>

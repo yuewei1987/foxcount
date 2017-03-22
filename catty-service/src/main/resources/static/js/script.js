@@ -21,8 +21,8 @@ Date.prototype.Format = function (fmt) { //author: meizz
 }
 $(document).ready(function(){
     InitPage();
-    var maxh = $(window).height();
-    $(".el-table__body-wrapper").height(maxh-245);
+    // var maxh = $(window).height();
+    // $(".el-table__body-wrapper").height(maxh-245);
 })
 function InitPage() {
     //click Checkbox options
@@ -241,12 +241,14 @@ var Main = {
             inputCost: 0,
             show:false,
             loading: false,
-            options: [{
-                value: 0.5,
-                label: ' ',
-                icon: false,
-                token: ''
-            },{
+            options: [
+            //     {
+            //     value: 0.5,
+            //     label: ' ',
+            //     icon: false,
+            //     token: ''
+            // },
+                {
                 value: 0,
                 label: 'Add Gmail',
                 icon: true,
@@ -453,7 +455,7 @@ var Main = {
         },
         editInvoiceDetail: function (obj) {
             $('#modal-edit-expenses').modal();
-            vm.$data.inputService = obj.title + ".com";
+            vm.$data.inputService = obj.title;
             vm.$data.inputEid = obj.eid;
             vm.$data.inputCost = obj.price;
             setTimeout(function () {
@@ -591,6 +593,7 @@ var Main = {
             var saveData = {
                 "eid": vm.$data.inputEid,
                 "servicename": vm.$data.inputService,
+                "serviceurl":vm.$data.inputService,
                 "cost": vm.$data.inputCost
             };
             $.ajax({
@@ -631,12 +634,14 @@ var Main = {
 //            }, 3000);
         }, loadEmail: function () {
 
-            var options = [{
-                value: '0.5',
-                label: ' ',
-                icon: false,
-                token: ''
-            }, {
+            var options = [
+            //     {
+            //     value: '0.5',
+            //     label: ' ',
+            //     icon: false,
+            //     token: ''
+            // },
+                {
                 value: '0',
                 label: 'Add Gmail',
                 icon: true,

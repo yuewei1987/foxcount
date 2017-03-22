@@ -627,10 +627,10 @@ a:focus {
 	.top-area .blue-block {
 	    width: 40px;
     	height: 40px;
-    	background: url(../i/header-left-icon.svg), linear-gradient(180deg, #20a0ff, #1d8bea);
+    	background: url(../i/fox-logo.png);
     	border-radius: 7px;
     	background-repeat: no-repeat;
-		background-size: 30px, auto;
+		background-size: 40px, auto;
 		background-position: center center;
 		display: inline-block;
 		vertical-align: middle;
