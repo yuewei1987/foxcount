@@ -69,5 +69,4 @@
     var vm = new Ctor().$mount('#app')
 </script>
 <!-- Main JS -->
-<script src="js/script.js"></script>
 </html>

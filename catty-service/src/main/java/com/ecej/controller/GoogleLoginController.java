@@ -2,6 +2,7 @@ package com.ecej.controller;
 
 import com.ecej.google.GooglePojo;
 import com.ecej.google.GsonUtility;
+import com.ecej.uc.config.PropertyConfigUtils;
 import com.ecej.uc.dto.ResultModel;
 import com.ecej.uc.po.EmaillistPo;
 import com.ecej.uc.po.ProjectPo;
@@ -10,6 +11,9 @@ import com.ecej.uc.service.EmaillistService;
 import com.ecej.uc.service.ProjectService;
 import com.ecej.uc.service.UserService;
 import com.google.gson.Gson;
+import org.mortbay.log.Log;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -36,6 +40,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/google/login/")
 public class GoogleLoginController {
+	private Logger log = LoggerFactory.getLogger(GoogleLoginController.class);
 	@Resource
 	private UserService userService;
     @Resource
@@ -100,28 +105,35 @@ public class GoogleLoginController {
 				for (int k = 0; k < ep1.size(); k++) {
 					EmaillistPo epTemp = ep1.get(k);
 					if (epTemp.getRefreshtoken() != null) {
-						String urlParameters2 =
-								"&client_id=" + clientid +
-										"&client_secret=" + client_secret +
-										"&refresh_token=" + epTemp.getRefreshtoken() +
-										"&grant_type=refresh_token";
-						URL url2 = new URL("https://www.googleapis.com/oauth2/v4/token");
-						URLConnection conn2 = url2.openConnection();
-						conn2.setDoOutput(true);
-						OutputStreamWriter writer2 = new OutputStreamWriter(
-								conn2.getOutputStream());
-						writer2.write(urlParameters2);
-						writer2.flush();
-						String line2 = "";
-						BufferedReader reader2 = new BufferedReader(new InputStreamReader(
-								conn2.getInputStream()));
-						String line22;
-						while ((line22 = reader2.readLine()) != null) {
-							line2 = line2 + line22;
+						try {
+							String urlParameters2 =
+									"&client_id=" + clientid +
+											"&client_secret=" + client_secret +
+											"&refresh_token=" + epTemp.getRefreshtoken() +
+											"&grant_type=refresh_token";
+							URL url2 = new URL("https://www.googleapis.com/oauth2/v4/token");
+							URLConnection conn2 = url2.openConnection();
+							conn2.setDoOutput(true);
+							OutputStreamWriter writer2 = new OutputStreamWriter(
+									conn2.getOutputStream());
+							writer2.write(urlParameters2);
+							writer2.flush();
+							String line2 = "";
+							BufferedReader reader2 = new BufferedReader(new InputStreamReader(
+									conn2.getInputStream()));
+							String line22;
+							while ((line22 = reader2.readLine()) != null) {
+								line2 = line2 + line22;
+							}
+							String newtoken = GsonUtility.getJsonElementString("access_token", line2);
+							epTemp.setAccesstoken(newtoken);
+							emaillistService.updateEmaillist(epTemp);
+						}catch(Exception e){
+							Log.info("refresh the token error!");
+							epTemp.setAccesstoken(s);
+							epTemp.setRefreshtoken(refrshToken);
+							emaillistService.updateEmaillist(epTemp);
 						}
-						String newtoken = GsonUtility.getJsonElementString("access_token", line2);
-						epTemp.setAccesstoken(newtoken);
-						emaillistService.updateEmaillist(epTemp);
 					}
 
 				}
@@ -132,6 +144,7 @@ public class GoogleLoginController {
 			ProjectPo pp = new ProjectPo();
 			pp.setUid(up.getUid());
 			List<ProjectPo> newpp = projectService.selectList(pp);
+			log.info("user login:{},token:{},refreshtoken:{}",up.getEmail(),s,refrshToken);
 			//new regist.
 			if(newpp.size()==0){
 				pp.setCurrency("1");
