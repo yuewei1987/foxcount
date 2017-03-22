@@ -31,6 +31,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/META-INF/resources/WEB-INF/jsp/home.jsp" afterPath="$PROJECT_DIR$/catty-service/target/classes/META-INF/resources/WEB-INF/jsp/home.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/META-INF/resources/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/catty-service/target/classes/META-INF/resources/WEB-INF/jsp/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/application.properties" afterPath="$PROJECT_DIR$/catty-service/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/banner.txt" afterPath="$PROJECT_DIR$/catty-service/target/classes/banner.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/logback-spring.xml" afterPath="$PROJECT_DIR$/catty-service/target/classes/logback-spring.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/mybatis/ExpenseMapper.xml" afterPath="$PROJECT_DIR$/catty-service/target/classes/mybatis/ExpenseMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catty-service/target/classes/remote-db.properties" afterPath="$PROJECT_DIR$/catty-service/target/classes/remote-db.properties" />
@@ -322,11 +323,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="67" column="31" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+            <state relative-caret-position="310">
+              <caret line="67" column="31" lean-forward="false" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -345,7 +346,7 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/static/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
+            <state relative-caret-position="344">
               <caret line="1003" column="100" lean-forward="false" selection-start-line="1003" selection-start-column="100" selection-end-line="1003" selection-end-column="100" />
               <folding />
             </state>
@@ -382,15 +383,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="304" column="85" lean-forward="false" selection-start-line="304" selection-start-column="45" selection-end-line="304" selection-end-column="85" />
-              <folding>
-                <element signature="n#profile#1;n#profiles#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#profile#2;n#profiles#0;n#project#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="-735">
+              <caret line="244" column="25" lean-forward="false" selection-start-line="244" selection-start-column="25" selection-end-line="244" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -558,7 +556,6 @@
         <option value="$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/home.jsp" />
         <option value="$PROJECT_DIR$/catty-service/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/catty-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/catty-service/src/main/resources/static/css/screen.css" />
         <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/GoogleCallBackController.java" />
         <option value="$PROJECT_DIR$/catty-service/src/main/java/com/ecej/controller/GoogleLoginController.java" />
@@ -568,6 +565,7 @@
         <option value="$PROJECT_DIR$/catty-service/src/main/resources/banner.txt" />
         <option value="$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/catty-service/src/main/resources/static/js/script.js" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -1513,7 +1511,7 @@
       <workItem from="1489714076602" duration="15493000" />
       <workItem from="1489744416021" duration="5656000" />
       <workItem from="1489893990076" duration="28256000" />
-      <workItem from="1490143429352" duration="13676000" />
+      <workItem from="1490143429352" duration="14036000" />
     </task>
     <task id="LOCAL-00001" summary="Test框架部分提交">
       <created>1487125819032</created>
@@ -1602,7 +1600,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="491746000" />
+    <option name="totallyTimeSpent" value="492106000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1615,7 +1613,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1634,7 +1632,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34019503" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34019503" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -2067,25 +2065,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="304" column="85" lean-forward="false" selection-start-line="304" selection-start-column="45" selection-end-line="304" selection-end-column="85" />
-          <folding>
-            <element signature="n#profile#1;n#profiles#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#profile#2;n#profiles#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/static/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="1003" column="100" lean-forward="false" selection-start-line="1003" selection-start-column="100" selection-end-line="1003" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
@@ -2104,8 +2083,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="67" column="31" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+        <state relative-caret-position="310">
+          <caret line="67" column="31" lean-forward="false" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catty-service/src/main/resources/static/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="1003" column="100" lean-forward="false" selection-start-line="1003" selection-start-column="100" selection-end-line="1003" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-735">
+          <caret line="244" column="25" lean-forward="false" selection-start-line="244" selection-start-column="25" selection-end-line="244" selection-end-column="25" />
           <folding />
         </state>
       </provider>

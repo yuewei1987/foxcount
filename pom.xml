@@ -126,9 +126,7 @@
                 <catty.google.redirect_uris>http://localhost:8080/google/login/oauth2callback</catty.google.redirect_uris>
 				<catty.google.redirect_uris2>http://localhost:8080/google/oauth2callback</catty.google.redirect_uris2>
             </properties>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
+
         </profile>
         <profile>
             <id>test</id>
@@ -245,9 +243,6 @@
                 </catty.google.redirect_uris>
                 <catty.google.redirect_uris2>http://test.yuewei.site/google/oauth2callback</catty.google.redirect_uris2>
             </properties>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
         </profile>
         <profile>
             <id>release2</id>
@@ -300,8 +295,7 @@
                 </catty.google.client_id>
                 <catty.google.client_secret>1pFcTBlCK1HeCBiBLYLgZ0-m</catty.google.client_secret>
                 <catty.google.auth_uri>https://accounts.google.com/o/oauth2/auth</catty.google.auth_uri>
-                <catty.google.redirect_uris>https://fast-hamlet-34558.herokuapp.com/google/login/oauth2callback
-                </catty.google.redirect_uris>
+                <catty.google.redirect_uris>https://fast-hamlet-34558.herokuapp.com/google/login/oauth2callback</catty.google.redirect_uris>
                 <catty.google.redirect_uris2>https://fast-hamlet-34558.herokuapp.com/google/oauth2callback</catty.google.redirect_uris2>
             </properties>
             <activation>
