@@ -89,7 +89,6 @@ public class ImportMailController {
                 }
 //                        if(!pageflag){
                 if (obj.getString("nextPageToken") != null) {
-                    System.out.println("nextPageToken" + obj.getString("nextPageToken"));
                     resultE = HttpClientUtil.sendGetRequest("https://www.googleapis.com/gmail/v1/users/me/messages?access_token="
                             + keypo.getAccesstoken() + "&pageToken=" + obj.getString("nextPageToken") + "&q=" + qparam, "UTF-8");
                     keypo.setPagetoken(obj.getString("nextPageToken"));
@@ -158,7 +157,6 @@ public class ImportMailController {
                 String[] finalStr = sresult[k].split("@@@@");
                 String responseStr = finalStr[0];
                 String EmailId = finalStr[2];
-//                System.out.println(responseStr);
                 JSONObject obj = JSON.parseObject(responseStr);
                 String invoice_date = "";
                 String target = "";
@@ -305,7 +303,6 @@ public class ImportMailController {
                 }
 //                        if(!pageflag){
                 if (obj.getString("nextPageToken") != null) {
-                    System.out.println("nextPageToken" + obj.getString("nextPageToken"));
                     resultE = HttpClientUtil.sendGetRequest("https://www.googleapis.com/gmail/v1/users/me/messages?access_token="
                             + keypo.getAccesstoken() + "&pageToken=" + obj.getString("nextPageToken") + "&q=" + qparam, "UTF-8");
                     keypo.setPagetoken(obj.getString("nextPageToken"));
