@@ -18,8 +18,8 @@
 	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="format-detection" content="telephone=no">
-	<title>Home</title>
-
+	<title>FoxCount</title>
+	<link rel="icon" href="i/fox-logo.png">
 	<!-- Bootstrap -->
 	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="lib/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
@@ -206,13 +206,17 @@
 							</template>
 						</el-table-column>
 					</el-table>
-					<el-button size="small" class="btn-more" v-on:click="loadMoreRow">more</el-button>
+
 				</div>
 				<!-- end .table-data -->
 				<div class="bottom-bar">
-					<div class="right-area"  v-show="percentageValue>0 && percentageValue!=100">
+					<div class="right-area" v-show="percentageValue>0 && percentageValue!=100">
 						<el-progress :percentage="percentageValue"></el-progress>
 					</div>
+					<div class="right-area2" v-show="percentageValue==0 || percentageValue==100">
+						<el-button size="small" class="btn-more" v-on:click="loadMoreRow">more</el-button>
+					</div>
+
 					<el-pagination
 							small
 							v-bind:page-size=newExpensesDataPageSize

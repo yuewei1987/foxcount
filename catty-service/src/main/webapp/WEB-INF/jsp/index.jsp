@@ -9,8 +9,8 @@
 	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="format-detection" content="telephone=no">
-	<title>ShowPage</title>
-	<link rel="icon" href="favicon.ico">
+	<title>FoxCount</title>
+	<link rel="icon" href="i/fox-logo.png">
 	<!-- Bootstrap -->
 	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="lib/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
@@ -60,7 +60,7 @@
     function toHref(){
         window.location.href="https://accounts.google.com/o/oauth2/v2/auth?"+
             "scope=https://www.googleapis.com/auth/gmail.readonly%20https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile"+
-            "&redirect_uri=https://fast-hamlet-34558.herokuapp.com/google/login/oauth2callback"+
+            "&redirect_uri=https://fast-hamlet-34558.herokuapp.com/google/login/oauth2callback" +
             "&response_type=code&access_type=offline"+
             "&client_id=319757543751-bj4lvlrthqal00u80r3dqfqm0i61f5g1.apps.googleusercontent.com";
     }
