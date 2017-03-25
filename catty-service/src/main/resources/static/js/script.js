@@ -985,6 +985,7 @@ var Main = {
                 vm.changeAddPage();
                 vm.changeInvoicePage();
                 vm.changeViewExpensesPage();
+                InitPage();
             });
         }, initChangePage2: function () {
             // vm.$nextTick(function () {
