@@ -65,8 +65,8 @@
       <file leaf-file-name="home.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="445" column="94" lean-forward="true" selection-start-line="445" selection-start-column="94" selection-end-line="445" selection-end-column="94" />
+            <state relative-caret-position="193">
+              <caret line="406" column="50" lean-forward="true" selection-start-line="406" selection-start-column="50" selection-end-line="406" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#el-table#0;n#div#1;n#aside#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -127,7 +127,6 @@
       <find>&lt;img</find>
     </findStrings>
     <replaceStrings>
-      <replace>com.ecej.uc.po.</replace>
       <replace>Project</replace>
       <replace>Emaillist</replace>
       <replace>Expense</replace>
@@ -157,6 +156,7 @@
       <replace>http://http://www.foxcount.com</replace>
       <replace>http://localhost:8080</replace>
       <replace>https://www.foxcount.com</replace>
+      <replace>onerror=&quot;this.src='/i/Broken.png'&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\web\工程\后端項目\trunk\market\market-service</dir>
@@ -1280,7 +1280,7 @@
       <workItem from="1490245371529" duration="1118000" />
       <workItem from="1490247080480" duration="98000" />
       <workItem from="1490325782440" duration="10360000" />
-      <workItem from="1490410391771" duration="445000" />
+      <workItem from="1490410391771" duration="763000" />
     </task>
     <task id="LOCAL-00001" summary="Test框架部分提交">
       <created>1487125819032</created>
@@ -1390,7 +1390,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="508487000" />
+    <option name="totallyTimeSpent" value="508805000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1876,8 +1876,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catty-service/src/main/webapp/WEB-INF/jsp/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="445" column="94" lean-forward="true" selection-start-line="445" selection-start-column="94" selection-end-line="445" selection-end-column="94" />
+        <state relative-caret-position="193">
+          <caret line="406" column="50" lean-forward="true" selection-start-line="406" selection-start-column="50" selection-end-line="406" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#el-table#0;n#div#1;n#aside#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
