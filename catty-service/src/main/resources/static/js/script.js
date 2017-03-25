@@ -540,6 +540,16 @@ var Main = {
             vm.$data.inputServiceName = servicename;
             vm.$data.inputService = serviceurl.slice(26);
             vm.$forceUpdate();
+        },editActiveInvoice2: function (servicename, serviceurl) {
+            vm.$data.currentAdd = {
+                servicename: servicename,
+                servicetype: serviceurl.slice(26),
+                serviceurl: serviceurl
+            };
+            vm.changeInvoicePage();
+            vm.$data.inputServiceName = servicename;
+            vm.$data.inputService = serviceurl.slice(26);
+            vm.$forceUpdate();
         }, updateServiceName: function () {
             vm.$data.loading = true;
             var saveData = {
@@ -774,7 +784,7 @@ var Main = {
                     break;
                 }
             }
-            var addexpense = vm.$data.addExpensesData;
+            var addexpense = vm.$data.addTempExpensesData;
             var flag = false;
             for (var ad = 0; ad < addexpense.length; ad++) {
                 if (addexpense[ad].title == invoicesDataT.title) {
@@ -801,9 +811,9 @@ var Main = {
                 if (typeof(invoicesDataT.price != undefined)) {
                     vm.$data.totalPrice = parseFloat(vm.$data.totalPrice) + parseFloat(invoicesDataT.price);
                 }
-                vm.$data.addExpensesData.push(addobj);
+                vm.$data.addTempExpensesData.push(addobj);
             }
-            if (vm.$data.addExpensesData.length == 0) {
+            if (vm.$data.addTempExpensesData.length == 0) {
                 var addobj = {
                     title: invoicesDataT.title,
                     serviceurl: invoicesDataT.serviceurl,
@@ -813,7 +823,7 @@ var Main = {
                 if (typeof(invoicesDataT.price != undefined)) {
                     vm.$data.totalPrice = parseFloat(vm.$data.totalPrice) + parseFloat(invoicesDataT.price);
                 }
-                vm.$data.addExpensesData.push(addobj);
+                vm.$data.addTempExpensesData.push(addobj);
             }
             var totalPriceInt = parseFloat(vm.$data.totalPrice).toFixed(2);
             vm.$data.totalPrice = totalPriceInt;
@@ -977,16 +987,16 @@ var Main = {
                 vm.changeViewExpensesPage();
             });
         }, initChangePage2: function () {
-            vm.$nextTick(function () {
-                vm.$data.addTempExpensesData = vm.$data.addExpensesData;
-                vm.$data.addTempSearchExpensesData = vm.$data.addTempExpensesData;
-                vm.$data.tempinvoicesData = vm.$data.invoicesData;
-                vm.$data.tempviewExpensesData = vm.$data.viewExpensesData;
+            // vm.$nextTick(function () {
+            //     vm.$data.addTempExpensesData = vm.$data.addExpensesData;
+            //     vm.$data.addTempSearchExpensesData = vm.$data.addTempExpensesData;
+            //     vm.$data.tempinvoicesData = vm.$data.invoicesData;
+            //     vm.$data.tempviewExpensesData = vm.$data.viewExpensesData;
                 vm.changePage();
                 vm.changeAddPage();
                 vm.changeInvoicePage();
                 vm.changeViewExpensesPage();
-            });
+            // });
         },
         changeMain: function (id, projectName, currency) {
             vm.$data.appLoading = true;

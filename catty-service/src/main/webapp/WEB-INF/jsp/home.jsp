@@ -70,7 +70,7 @@
 		<!-- end .three-grid -->
 		<div class="icons-list clearfix">
 			<ul>
-				<li v-for="row in addExpensesData">
+				<li v-for="row in addTempExpensesData">
 					<div class="img-boxs link-view-expenses" v-on:click="addExpensesClose">
 						<el-tooltip class="item" effect="dark" :content="row.price | comma2" placement="top">
 							<div class="img-wrapper">
@@ -86,6 +86,7 @@
 				</li>
 			</ul>
 		</div>
+
 	</div>
 	<!-- end .contents -->
 
@@ -237,7 +238,7 @@
 						<el-table-column
 								width="531">
 							<template scope="scope">
-								<div class="list-item list-item-info link-edit-webflow clearfix">
+								<div class="list-item list-item-info link-edit-webflow clearfix" @click="editActiveInvoice2(scope.row.title,scope.row.serviceurl)">
 									<div class="left-area click-area">
 										<div class="img-boxs">
 											<img v-bind:src=scope.row.serviceurl alt="pic" class="img"/>
